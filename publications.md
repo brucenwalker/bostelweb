@@ -11,11 +11,33 @@ slug: publications
 <!-- <div id="player" data-plyr-provider="vimeo" data-plyr-embed-id="331429597" data-vimeo-responsive="true" data-vimeo-autplay="true"></div> -->
 <div class="page-header">
     <div class="page-header__content container">
-        <h1 class="h4 page-label">{{ site.t.publications }}</h1>
+        <h1 class="h5 page-label">{{ site.t.publications }}</h1>
         <h2 class="h1 page-title">{{ site.t.prevention_over_treatment }}</h2>
     </div>
 </div>
-<article class="page-content">     
+<article class="page-content">  
+    <div class="container">
+        <section class="page-section">
+            <div class="publications">
+                <div class="publication">
+                    <a href="/dermoscopy-diagnosis-cancerous-lesions"><img class="publication-img" src="assets/dermoscopy.jpg" alt="a microscopic image of cancer cells" /></a>
+                    <h2 class="h4">Dermoscopy diagnosis of cancerous lesions utilizing dual deep learning algorithms via visual and audio (sonification) outputs: Laboratory and prospective observational studies</h2>
+                    <div class="publication-footer">
+                        <a href="/dermoscopy-diagnosis-cancerous-lesions">Read More</a>
+                        <a class="btn btn--icon btn--icon-light pdf-btn" href="#" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
+                    </div>
+                </div>
+                <div class="publication">
+                    <a href="/skin-cancer-detection-deep-learning-sound-analysis-algorithms"><img class="publication-img" src="/assets/skin-cancer.jpg" alt="topical skin cancer lesions" /></a>
+                    <h2 class="h4">Skin cancer detection by deep learning and sound analysis algorithms: A prospective clinical study of an elementary dermoscope</h2>
+                    <div class="publication-footer">
+                        <a href="/skin-cancer-detection-deep-learning-sound-analysis-algorithms">Read More</a>
+                        <a class="btn btn--icon btn--icon-light pdf-btn" href="#" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
     <!-- <section class="page-section">
         <div class="container">
             <div class="news-item">

@@ -28,6 +28,7 @@
 
     .page-label {
         margin: 0;
+        display: block;
     }
 
 }
@@ -35,20 +36,20 @@
 .page-header__content {
     position: relative;
     z-index: 1;
-    padding: 0 25px;
+    padding: 0 1.25rem;
 }
 
 
 @media (min-width: $md-breakpoint) {
     .page-header {
-        padding: 12rem 0 8rem 0;
+        padding: 16rem 0;
  
         &:after {
             top: 100px;
         }
 
         .page-label {
-            margin-bottom: 1.5625rem;
+            margin-bottom: 1.25rem;
         }
     }
 }

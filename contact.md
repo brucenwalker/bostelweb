@@ -11,7 +11,7 @@ slug: contact
 <!-- <div id="player" data-plyr-provider="vimeo" data-plyr-embed-id="331429597" data-vimeo-responsive="true" data-vimeo-autplay="true"></div> -->
 <div class="page-header">
     <div class="page-header__content container">
-        <h1 class="h4 page-label">{{ site.t.contact_us }}</h1>
+        <h1 class="h5 page-label">{{ site.t.contact_us }}</h1>
         <h2 class="h1 page-title">{{ site.t.contact_bostel }}</h2>
     </div>
 </div>

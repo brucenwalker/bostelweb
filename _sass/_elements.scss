@@ -41,19 +41,20 @@ h3, .h3 {
 h4, .h4 {
     font-family: 'CircularStd-Book', serif;
     font-weight: 900;
+    font-size: 1.125rem;
+    line-height: 1.777;
+    color: $dark;
+}
+
+h5, .h5 {
+    font-family: 'CircularStd-Book', serif;
+    font-weight: 900;
     font-size: 0.75rem;
     line-height: 1.5;
     letter-spacing: 0.125rem;
     text-transform: uppercase;
     color: $primary;
     margin-bottom: .5rem;
-}
-
-h5, .h5 {
-    font-family: 'CircularStd-Book', serif;
-    font-weight: 900;
-    font-size: 0.625rem;
-    color: $gray-dark;
 }
 
 p {
@@ -69,9 +70,9 @@ a {
     color: $primary; 
     text-decoration: none; 
 
-    &:visited { 
-        color: $white; 
-    }
+    // &:visited { 
+    //     color: $white; 
+    // }
     &:hover { 
         color: $primary; 
         text-decoration: none; 
@@ -142,6 +143,9 @@ blockquote {
     }
 
     h4, .h4 {
+        
+    }
+    h5, .h5 {
         font-size: 0.875rem;
         line-height: 1.2857;
         margin-bottom: 1rem;

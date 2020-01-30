@@ -9,7 +9,7 @@ description:
 <!-- <div id="player" data-plyr-provider="vimeo" data-plyr-embed-id="331429597" data-vimeo-responsive="true" data-vimeo-autplay="true"></div> -->
 <div class="page-header">
     <div class="page-header__content container">
-        <h1 class="h4 page-label">A NEW FRONTIER</h1>
+        <h1 class="h5 page-label">A NEW FRONTIER</h1>
         <h2 class="h1 page-title">{{ site.t.diagnosing_skin_cancer_melody }}</h2>
         <a href="#" class="btn btn--lg">{{ site.t.learn_more }}</a>
     </div>

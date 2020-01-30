@@ -5,34 +5,6 @@
     h5, .h5 {
         font-size: 1rem;
     }
-    .page-header {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        padding: 12rem 0 8rem 0;
-        position: relative;
-        
-        // &:after {
-        //     z-index: -1;
-        //     background: $primary;
-        // }
-
-        &__content {
-            // display: flex;
-            // flex-direction: column;
-            // justify-content: center;
-            // width: 100%;
-        }
-
-        .page-subtitle {
-            color: $white;
-        }
-
-        @media (min-width: $md-breakpoint) {
-            padding: 14rem 0 12rem 0;
-        }
-    }
     
     .page-subtitle {
         font-family: 'CircularStd-Book', sans-serif;
@@ -113,10 +85,4 @@
 }
 
 @media (min-width: $md-breakpoint) {
-    .page {
-        .page-header {
-            &__content {
-            }
-        }
-    }
 }

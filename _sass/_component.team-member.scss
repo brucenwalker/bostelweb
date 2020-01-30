@@ -1,0 +1,82 @@
+.team-member {
+    position: relative;
+
+    &-img {
+        border-radius: 0.25rem 1rem 0.25rem 0.25rem;
+        width: 100px;
+        height: 100px;
+        background: $gray;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &-title {
+        position: relative;
+        min-height: 100px;
+        padding-left: calc(100px + 2rem);
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 2rem;
+    }
+
+    &-role {
+        margin: 0;
+    }
+
+    &-name {
+        font-family: 'CircularStd-Book', sans-serif;
+        font-size: 1.5rem;
+        margin-bottom: 0.25rem;
+    }
+}
+
+@media (max-width: $md-breakpoint-max) {
+    .team-member {
+        .btn {
+            position: absolute;
+            bottom: -5px;
+            left: 85px;
+            margin: 0;
+            width: 1.875rem;
+            height: 1.875rem;
+            border: 4px solid $white;
+    
+            svg {
+                width: 0.5rem;
+                height: 0.5rem;
+            }
+        }
+    }
+}
+@media (min-width: $md-breakpoint) {
+    .team-member {
+        &-img {
+            position: relative;
+            border-radius: 0.5rem 6rem 0.5rem 0.5rem;
+            height: 500px;
+            width: 50%;
+        }
+
+        &-bio {
+            padding-left: 2.5rem;
+        }
+
+        &-title {
+            padding: 0;
+            align-items: flex-start;
+        }
+
+        &-name {
+            font-size: 2.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .btn {
+            position: relative;
+            top: 0;
+            left: 0;
+            margin: 0.35rem 0 0 1.5rem;
+        }
+    }
+}

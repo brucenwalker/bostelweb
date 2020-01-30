@@ -26,6 +26,10 @@
         }
     }
 
+    [class*='col'] {
+        margin: 0 1rem;
+    }
+
     .col {
         position: relative;
         width: 50%;

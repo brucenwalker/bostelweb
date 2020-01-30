@@ -58,6 +58,7 @@ sass:
 #   - vendor/ruby/
 
 collections:
+  - team_members
 
 lang: 'en'
 # Translation strings

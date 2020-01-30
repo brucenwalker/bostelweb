@@ -4,11 +4,25 @@
             background: url('../assets/team-hero.jpg') $midnight;
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: center center;
+            background-position: 25% center;
             top: 50px;
         }
+    }
 
+    .section-team-members {
+        padding-top: 3.125rem;
 
+        .team-member {
+            margin-bottom: 3.125rem;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            p:last-child {
+                 margin-bottom: 0;
+            }
+        }
     }
 }
 
@@ -17,6 +31,27 @@
         .page-header {
             &:after {
                 top: 100px;
+                background-position: center center;
+            }
+        }
+
+        .section-team-members {
+            padding-top: 7.5rem;
+
+            .team-member {
+                margin-bottom: 7.5rem;
+
+                &:nth-child(even) {
+                    flex-direction: row-reverse;
+
+                    .team-member-bio {
+                        padding: 0 2.5rem 0 0;
+                    }
+
+                    .team-member-img {
+                        border-radius: 6rem 0.5rem 0.5rem 0.5rem;
+                    }
+                }
             }
         }
     }

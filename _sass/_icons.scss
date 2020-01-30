@@ -1,0 +1,46 @@
+.icon {
+    fill: white;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+
+.icon--close {
+    width: 14px;
+    height: 14px;
+}
+
+.icon--user {
+    fill: $white;
+    stroke: $white;
+}
+
+.icon--chevron {
+    width: 12px;
+    height: 12px;
+}
+
+.icon--chevron-left {
+    transform: rotate(180deg);
+}
+
+.icon--circle-outline {
+    border: 2px solid $white;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px; 
+    display: block;
+}
+
+.icon--primary {
+    fill: $primary;
+}
+
+.icon--warning {
+    color: $orange;
+    fill: currentColor;
+}
+
+.icon--disabled {
+    fill: $plum;
+}

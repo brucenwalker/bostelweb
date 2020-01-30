@@ -1,0 +1,49 @@
+.page-references {
+    .references {
+        margin: 0 auto;
+    }
+    .reference {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 4rem;
+        &__img {
+            margin-bottom: 2rem;
+            flex: none;
+
+            img {
+                width: 250px;
+                max-width: 100%;
+                border: 4px solid rgba($primary, 0.2);
+            }
+        }
+
+        h3 {
+            color: $gray-dark;
+            font-size: 1.5rem;
+        }
+
+        a {
+            color: $primary;
+            text-decoration: underline;
+            word-break: break-all;
+        }
+    }
+}
+
+@media (min-width: $md-breakpoint) {
+    .page-references {
+        .references {
+            width: 75%;
+            margin: 0 auto 0 0;
+        }
+        .reference {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            &__img {
+                margin-left: 2rem;
+            }
+        }
+    }
+}

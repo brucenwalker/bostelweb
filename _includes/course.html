@@ -1,0 +1,94 @@
+
+<div id="course" class="lms-course step">
+    <header class="lms-header course-header">
+        <a href="/"><img class="site-logo" src="/assets/logo.svg" alt="{{ site.t.oenologic }}"></a>
+        <div class="toolbar-menu">
+            <a href="#" class="toolbar-item is-active">{{ site.t.courses }}</a>
+        </div>
+    
+    </header>
+    <article class="page-content container">
+        <h1 class="hide-md mb-2">{{ site.t.lms.welcome_back }}</h1>
+        <div class="course-detail">
+            <div class="course-detail__desc">
+                <h1 class="course-detail__msg hide-sm">{{ site.t.lms.welcome_back }}</h1>
+                <div class="label">{{ site.t.lms.current_course }}</div>
+                <h3>{{ site.t.lms.wine_essentials_100_series }}</h3>
+                <div class="progress-report">
+                    <div class="progress-item">
+                        <div><span class="progress-value">2</span><span class="progress-of">/4</span></div> <span class="progress-label">{{ site.t.lms.completed_modules }}</span>
+                        <div class="progressbar">
+                            <span style="width: 50%"></span>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div><span class="progress-value">48</span><span class="progress-of">%</span></div> <span class="progress-label">{{ site.t.lms.current_course_completion }}</span>
+                        <div class="progressbar">
+                            <span style="width: 48%"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-step="#module" id="resume-btn" class="course-detail__current-lesson current-lesson">
+                <button class="resume-btn"><svg class="icon"><use xlink:href="/assets/site.svg#resume" aria-label="Resume" /></svg></button>
+                <img src="/assets/aus-wine-hp.png" />
+                <div class="current-lesson__details">
+                    <div class="label label--primary">{{ site.t.lms.continue_lesson }}</div>
+                    <h2 class="current-lesson_title">{{ site.t.lms.australian_wines }}<svg class="icon icon--chevron"><use xlink:href="/assets/site.svg#chevron" aria-label="Chevron Right" /></svg></h2>
+                </div>
+            </div>
+        </div>
+        <div class="section-modules">
+            <div class="course-modules-header">
+                <h3>{{ site.t.lms.course_modules }}</h3>
+                <div class="label hide-sm">{{ site.t.lms.all_modules }}</div>
+            </div>
+            <div class="course-modules">
+                <div class="course-module">
+                    <img src="/assets/grape-varieties.png" />
+                    <div class="course-module__details">
+                        <div class="label course-module__status">{{ site.t.lms.completed }}</div>
+                        <h3 class="course-module__title">{{ site.t.lms.grape_varieties }}</h3>
+                        <div class="module-details">
+                            <div class="module-detail"><svg class="icon icon--chevron"><use xlink:href="/assets/site.svg#lesson" aria-label="{{ site.t.lms.lessons }}" /></svg>14 {{ site.t.lms.lessons }}</div>
+                            <div class="module-detail"><svg class="icon icon--chevron"><use xlink:href="/assets/site.svg#timer" aria-label="{{ site.t.lms.hours }}" /></svg>3 {{ site.t.lms.hours }}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-module">
+                    <img src="/assets/production.png" />
+                    <div class="course-module__details">
+                        <div class="label course-module__status">{{ site.t.lms.completed }}</div>
+                        <h3 class="course-module__title">{{ site.t.lms.production }}</h3>
+                        <div class="module-details">
+                            <div class="module-detail"><svg class="icon icon--chevron"><use xlink:href="/assets/site.svg#lesson" aria-label="{{ site.t.lms.lessons }}" /></svg>36 {{ site.t.lms.lessons }}</div>
+                            <div class="module-detail"><svg class="icon icon--chevron"><use xlink:href="/assets/site.svg#timer" aria-label="{{ site.t.lms.hours }}" /></svg>8 {{ site.t.lms.hours }}</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" data-step="#module" class="course-module">
+                    <img src="/assets/geography.png" />
+                    <div class="course-module__details">
+                        <div class="label label--primary course-module__status">{{ site.t.lms.current }}</div>
+                        <h3 class="course-module__title">{{ site.t.lms.geography }}</h3>
+                        <div class="module-details">
+                            <div class="module-detail"><svg class="icon icon--chevron"><use xlink:href="/assets/site.svg#lesson" aria-label="{{ site.t.lms.lessons }}" /></svg>9 {{ site.t.lms.lessons }}</div>
+                            <div class="module-detail"><svg class="icon icon--chevron"><use xlink:href="/assets/site.svg#timer" aria-label="{{ site.t.lms.hours }}" /></svg>4 {{ site.t.lms.hours }}</div>
+                        </div>
+                    </div>
+                </a>
+                <div class="course-module">
+                    <img src="/assets/culture.png" />
+                    <div class="course-module__details">
+                        <div class="label label--error course-module__status">{{ site.t.lms.upcoming }}</div>
+                        <h3 class="course-module__title">{{ site.t.lms.culture }}</h3>
+                        <div class="module-details">
+                            <div class="module-detail"><svg class="icon icon--chevron"><use xlink:href="/assets/site.svg#lesson" aria-label="{{ site.t.lms.lessons }}" /></svg>15 {{ site.t.lms.lessons }}</div>
+                            <div class="module-detail"><svg class="icon icon--chevron"><use xlink:href="/assets/site.svg#timer" aria-label="{{ site.t.lms.hours }}" /></svg>3.5 {{ site.t.lms.hours }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>

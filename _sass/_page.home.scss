@@ -1,0 +1,338 @@
+.page-home {
+    h3, .h3 {
+        color: $white;
+    }
+
+    .page-header {
+        &:after {
+            z-index: -1;
+            background: url('../assets/home-hero.jpg') $midnight;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center bottom;
+        }
+    }
+    
+    // .page-header {
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     justify-content: flex-end;
+    //     height: 100vh;
+    //     max-height: 100vh;
+    //     min-height: 30rem;
+    //     padding-bottom: 0;
+    //     background: rgba($black, 0.2);
+    //     position: relative;
+    //     padding: 32px 0 0 0;
+        
+    //     &:after {
+    //         z-index: -1;
+    //         background: url('../assets/hero.jpg') $midnight;
+    //         background-size: cover;
+    //         background-repeat: no-repeat;
+    //         background-position: center bottom;
+    //     }
+
+    //     &__content {
+    //         display: flex;
+    //         flex-direction: column;
+    //         align-items: center;
+    //         justify-content: center;
+    //         text-align: center;
+    //         width: 100%;
+    //         max-width: 48rem;
+    //         margin-bottom: 11rem;
+    //         // margin-top: 5rem;
+
+    //         // @media (min-width: $md-breakpoint) {
+    //         //     margin-top: 19rem;
+    //         // }
+    //     }
+
+    //     .arch {
+    //         width: 100%;
+    //         display: block;
+    //         position: absolute;
+    //         bottom: 0;
+    //         height: 165px;
+    //         overflow: hidden;
+
+    //         &:before {
+    //             box-shadow: 0 0 0 200px #f1f1f1;
+    //             border-radius: 100%;
+    //             position: absolute;
+    //             height: 300px;
+    //             content: '';
+    //             /* right: -20%; */
+    //             left: -50%;
+    //             top: -94%;
+    //             width: 200%;
+    //         }
+
+    //         @media (min-width: $md-breakpoint) {
+    //             &:before {
+    //                 height: 300px;
+    //                 content: '';
+    //                 /* right: -20%; */
+    //                 left: -10%;
+    //                 top: -94%;
+    //                 width: 120%;
+    //             }
+    //         }
+    //     }
+
+    //     // @media (min-width: $md-breakpoint) {
+    //     //     height: 80vh;
+    //     // }
+    // }
+
+    
+
+    .discover-more-btn {
+        position: absolute;
+        bottom: 0rem;
+        left: 0;
+        width: 100%;
+        letter-spacing: 0.125rem;
+
+        @media (min-width: $md-breakpoint) {
+            bottom: 6rem;
+        }
+    }
+
+    // .page-title {
+    //     margin-bottom: 1.5625rem;
+    //     text-align: center;
+    // }
+
+    .section-jobs {
+        img {
+            margin-right: 1.5rem;
+        }
+    }
+
+    .section-courses {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+
+        .section-title {
+            text-align: center;
+        }
+        
+        .course--primary {
+            margin-bottom: 2rem;
+        }
+
+        .courses-container {
+            padding: 0;
+            overflow: hidden;
+            
+            .course {
+                
+                background: linear-gradient(rgba($black,0), rgba($black,0.9));
+                overflow: hidden;
+                position: relative;
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    z-index: -1;
+                    background-size: cover;
+                }
+
+                &.is-open {
+                    border: none;
+                }
+            }
+        }
+
+        .section-title {
+            margin-bottom: 3rem;
+        }
+    }
+
+    #course-introduction:after {
+        background-image: url('../assets/01@2x.jpg');
+    }
+
+    #course-care-safety:after {
+        background-image: url('../assets/03@2x.jpg');
+    }
+    
+    #course-fundamentals:after {
+        background-image: url('../assets/02@2x.jpg');
+    }
+
+    #course-related-conditions:after {
+        background-image: url('../assets/04@2x.jpg');
+    }
+
+    #course-complex-care:after {
+        background-image: url('../assets/05@2x.jpg');
+    }
+
+    .section-is-for {
+        position: relative;
+        color: $white;
+
+        h2 {
+            color: $white;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            z-index: -1;
+            background: url('../assets/is-for-bg.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .section-testimonial {
+        padding-bottom: 0;
+    }
+
+    .section-certification {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative; 
+        z-index: 0;
+
+        .container {
+            z-index: 1;
+        }
+
+        .col-img {
+            position: relative;
+            left: -100%;
+            width: 200%;
+            
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: $md-breakpoint) {
+    .page-home {
+        // .page-header {
+        //     min-height: 40rem;
+        // }
+
+        .page-section {
+            padding-top: 12.5rem;
+            padding-bottom: 12.5rem;
+        }
+
+        .discover-more-btn {
+            bottom: 0;
+        }
+        .section-is-for {
+            padding: 12.5rem 0 9.375rem;
+            .page-section__content {
+                max-width: 80%;
+            }
+        }
+
+        .section-courses {
+            padding-top: 0;
+        }
+
+        .section-jobs {
+            padding-top: 7.5rem;
+            padding-bottom: 7rem;
+        }
+
+        .section-certification {
+            padding-top: 5rem;
+            margin-bottom: 25rem;
+
+            .col-img {
+                position: absolute;
+                left: -35%;
+                width: 100%;
+                top: -50px;
+                img {
+                    width: 80%;
+                }
+            }
+
+            .col-desc {
+                left: 50%;
+            }
+        }
+        
+        .section-get-started {
+            margin-top: -18rem;
+        }
+
+        .section-testimonial {
+            margin-bottom: 12.5rem;
+            padding-top: 6.25rem;
+            padding-bottom: 0;
+        }
+    }
+}
+
+@media (min-width: $lg-breakpoint) {
+    .page-home {
+        .section-certification {
+            .col-img {
+                left: -24%;
+                width: 85%;
+            }
+        }
+    }
+}
+
+@media (min-width: $xl-breakpoint) {
+    .page-home {
+        .section-certification {
+            .col-img {
+                left: -8%;
+                width: 65%;
+            }
+        }
+    }
+}
+
+@media (min-width: $xxl-breakpoint) {
+    .page-home {
+        .section-certification {
+            .col-img {
+                left: -5%;
+
+                img {
+                    width: 75%;
+                    max-width: 880px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $md-breakpoint-max) {
+    .page-home {
+        // .page-title {
+        //     font-size: 1.625rem;
+        // }
+        .section-certification {
+            .page-title {
+                font-size: 1.625rem;
+            }
+        }
+    }
+}

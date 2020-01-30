@@ -1,0 +1,101 @@
+<div id="lesson" class="lms-lesson step">
+    <header class="lms-header">
+        <a href="#" data-step="#module" class="toolbar-action">
+            <svg class="icon"><use xlink:href="/assets/site.svg#arrow" aria-label="{{ site.t.lms.lesson_details }}" /></svg>
+        </a>
+        <h1 class="lms-header__title">{{ site.t.lms.lesson_details }}</h1>
+    </header>
+    <header class="lms-header lesson-content-header">
+        <a href="#" class="toolbar-action">
+            <svg class="icon"><use xlink:href="/assets/site.svg#arrow" aria-label="{{ site.t.lms.back }}" /></svg>
+        </a>
+        <h1 class="lms-header__title">{{ site.t.lms.tasmania }}</h1>
+    </header>
+    <div class="progressbar lesson-content-progressbar">
+        <span style="width: 8.333%" data-lesson-progress></span>
+    </div>
+    <article class="page-content split-panel">
+        <div class="split-panel__sidebar">
+            <img class="lesson-img" src="/assets/aus-wine.png" />
+            <div class="lesson">
+                <span class="h5 lesson-number">{{ site.t.lms.lesson }} 103</span>
+                <h1 class="h2">{{ site.t.lms.australian_wine }}</h1>
+                <div class="list-nav">
+                    <a href="#" class="list-nav__item">{{ site.t.lms.australia_mainland }} <svg class="icon icon--chevron"><use xlink:href="/assets/site.svg#chevron" aria-label="{{ site.t.lms.chevron_right }}" /></svg></a>
+                    <a href="#" class="list-nav__item is-active" data-lesson-section>{{ site.t.lms.tasmania }} <svg class="icon icon--chevron"><use xlink:href="/assets/site.svg#chevron" aria-label="{{ site.t.lms.chevron_right }}" /></svg></a>
+                </div>
+            </div>
+        </div>
+        <div class="module-lessons split-panel__main">
+            <div class="lesson-content">
+                <h2 class="mb-2">{{ site.t.lms.tasmania }}</h2>
+                <div class="lesson-content__page" data-lesson-page="1">
+                    <img src="/assets/img_1.png" />
+                </div>
+                <div class="lesson-content__page" data-lesson-page="2">
+                    <img src="/assets/img_2.png" />
+                    <p>{{ site.t.lms.tasmania_2 }}</p>
+                </div>
+                <div class="lesson-content__page" data-lesson-page="3">
+                    <img src="/assets/img_3.png" />
+                    <p>{{ site.t.lms.tasmania_3 }}</p>
+                </div>
+                <div class="lesson-content__page" data-lesson-page="4">
+                    <img src="/assets/img_4.png" />
+                    <p>{{ site.t.lms.tasmania_4 }}</p>
+                </div>
+                <div class="lesson-content__page" data-lesson-page="5">
+                    <img src="/assets/img_5.png" />
+                    <p>{{ site.t.lms.tasmania_5 }}</p>
+                </div>
+                <div class="lesson-content__page" data-lesson-page="6">
+                    <img src="/assets/img_6.png" />
+                    <p>{{ site.t.lms.tasmania_6 }}</p>
+                </div>
+                <div class="lesson-content__page" data-lesson-page="7">
+                    <img src="/assets/img_7.png" />
+                    <p>{{ site.t.lms.tasmania_7 }}</p>
+                </div>
+                <div class="lesson-content__page" data-lesson-page="8">
+                    <img src="/assets/img_8.png" />
+                    <p>{{ site.t.lms.tasmania_8 }}</p>
+                </div>
+                <div class="lesson-content__page" data-lesson-page="9">
+                    <img src="/assets/img_9.png" />
+                    <p>{{ site.t.lms.tasmania_9 }}</p>
+                </div>
+                <div class="lesson-content__page" data-lesson-page="10">
+                    <img src="/assets/img_10.png" />
+                    <p>{{ site.t.lms.tasmania_10 }}</p>
+                </div>
+                <div class="lesson-content__page" data-lesson-page="11">
+                    <img src="/assets/img_11.png" />
+                    <p>{{ site.t.lms.tasmania_11 }}</p>
+                </div>
+                <div class="lesson-content__page" data-lesson-page="12">
+                    <img src="/assets/img_12.png" />
+                    <p>{{ site.t.lms.tasmania_12 }}</p>
+                    <div class="start-quiz-btn" data-action="start-quiz">
+                       <span>{{ site.t.lms.ready_to_test_knowledge }}</span>
+                       <button data-step="#quiz" class="btn btn--dark btn--has-icon"><span>{{ site.t.lms.start_quiz }}</span> <svg><use xlink:href="/assets/site.svg#triangle" aria-label="{{ site.t.lms.arrow }}" /></svg></button>
+                    </div>
+                </div>
+                <div class="lesson-content-nav">
+                    <span class="page-position" data-page-position>1/12</span>
+                    <div class="lesson-content-nav__toolbar">
+                        <a href="#" data-lesson="prev" class="is-disabled"><svg class="icon icon--chevron icon--chevron-left"><use xlink:href="/assets/site.svg#chevron" aria-label="{{ site.t.lms.chevron_left }}" /></svg> {{ site.t.lms.prev }}</a>
+                        <a href="#" data-lesson="next">{{ site.t.lms.next }} <svg class="icon icon--chevron"><use xlink:href="/assets/site.svg#chevron" aria-label="{{ site.t.lms.chevron_right }}" /></svg></a>
+                    </div>
+                </div>
+                <div class="progressbar">
+                    <span style="width: 8.333%" data-lesson-progress></span>
+                </div>
+            </div>
+        </div>
+    </article>
+    <div class="lesson-content-toolbar page-toolbar">
+        <a href="#" data-lesson="prev" class="is-disabled"><svg class="icon icon--chevron icon--chevron-left"><use xlink:href="/assets/site.svg#chevron" aria-label="{{ site.t.lms.chevron_left }}" /></svg> {{ site.t.lms.prev }}</a>
+        <span class="page-position" data-page-position>1/12</span>
+        <a href="#" data-lesson="next">{{ site.t.lms.next }} <svg class="icon icon--chevron"><use xlink:href="/assets/site.svg#chevron" aria-label="{{ site.t.lms.chevron_right }}" /></svg> </a>
+    </div>
+</div>

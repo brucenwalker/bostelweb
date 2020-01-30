@@ -1,0 +1,85 @@
+form {
+    input,
+    textarea {
+        margin: 0 0 0.625rem;
+    }
+
+    button:last-child {
+        margin-top: 1.25rem;
+    }
+
+    .error-msg {
+        display: none;
+    }
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.input-submit {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+
+    input {
+        width: 100%;
+        padding-right: 2.75rem;
+        background: none;
+        border: none;
+        border: 2px solid $primary;
+        border-radius: 2.5rem;
+        min-height: 2.5rem;
+        color: $white;
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            color: $white;
+        }
+        &::-moz-placeholder { /* Firefox 19+ */
+            color: $white;
+        }
+        &:-ms-input-placeholder { /* IE 10+ */
+            color: $white;
+        }
+        &:-moz-placeholder { /* Firefox 18- */
+            color: $white;
+        }
+        
+    }
+    
+    button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 0 !important;
+        border: none;
+        border-radius: 2.5rem;
+        background: $primary;
+        color: $midnight;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 0.875rem;
+        cursor: pointer;
+    }
+}
+
+.field--has-error {
+    border: 1px solid $error !important;
+}
+
+.form-confirmation {
+    display: none;
+}

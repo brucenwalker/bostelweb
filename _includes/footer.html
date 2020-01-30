@@ -1,0 +1,36 @@
+<footer class="site-footer">
+    <div class="footer-inner container">
+        <div class="footer-top">
+            <h2 class="section-title text--white">{{ site.t.request_more_information }}</h2>
+            <p class="mb-2">{{ site.t.footer_copy }}</p>
+            <a class="btn btn--lg" href="#">{{ site.t.contact_us }}</a>
+        </div>
+        <div class="footer-bottom">
+            <img class="footer-logo" src="/assets/logo-light.svg" alt="Bostel">
+            <div class="footer-menu">
+                <ul class="site-menu">
+                    <li><a href="/team">{{ site.t.team }}</a></li>
+                    <li><a href="/publications">{{ site.t.publications }}</a></li>
+                    <li><a href="/news/">{{ site.t.news }}</a></li>
+                    <li><a href="/contact">{{ site.t.contact }}</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a class="btn btn--icon btn--icon-light" href="https://www.linkedin.com" target="_blank"><svg class="icon"><use xlink:href="/assets/site.svg#linkedin" /></svg></a>
+                <a class="btn btn--icon btn--icon-light" href="https://www.facebook.com" target="_blank"><svg class="icon"><use xlink:href="/assets/site.svg#facebook" /></svg></a>
+                <a class="btn btn--icon btn--icon-light" href="https://www.instagram.com" target="_blank"><svg class="icon"><use xlink:href="/assets/site.svg#instagram" /></svg></a>
+                <!-- <a class="btn btn--icon btn--icon-light" href="https://twitter.com" target="_blank"><svg class="icon"><use xlink:href="/assets/site.svg#twitter" /></svg></a> -->
+                <a class="btn btn--icon btn--icon-light" href="https://www.youtube.com" target="_blank"><svg class="icon"><use xlink:href="/assets/site.svg#youtube" /></svg></a>
+            </div>
+            <!-- <p class="footer-copyright"><a href="/terms-of-use">{{ site.t.copyright }} &copy; {{ 'now' | date: "%Y" }} {{ site.t.copyright_content }}</a></p> -->
+        </div>
+    </div>
+</footer>
+{% comment %}<div class="alert-bar">
+    <div class="alert-bar-inner container">
+        <div class="alert-bar__msg">
+            <p>{{ site.t.accept_content }}</p>
+        </div>
+        <button class="btn btn--light alert-bar__action" js-toggle="accept">{{ site.t.accept }}</button>
+    </div>
+</div>{% endcomment %}

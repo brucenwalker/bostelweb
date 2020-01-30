@@ -1,0 +1,210 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Oenologic
+email: 
+phone: 
+description: >- # this means to ignore newlines until "baseurl:"
+  Parler Couramment Vin.
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  
+twitter_username: 
+github_username:  
+
+linkedin_url: 
+medium_url: 
+twitter_url: 
+github_url: 
+
+hero_video_url: https://player.vimeo.com/external/346702075.hd.mp4?s=ac3a83c42ee72bcc7e26df8d632ae090868b5933&profile_id=174
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  #- jekyll-redirect-from
+
+sass:
+  # sass_dir: _sass
+  style: compressed # possible values: nested expanded compact compressed
+
+# assets:
+#   sources:
+#     - _assets
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+collections:
+
+lang: 'fr'
+# Translation strings
+t:
+  000_series: 'Série 000'
+  000_series_content: 'Le cours d''introduction d''Oenologic offre une vue d''ensemble large et rapide du monde du vin. Il comprend des informations sur les principaux cépages, les principes généraux de la vinification, les régions viticoles importantes tant d’un point de vue de production que de diffusion, ainsi qu''une brève histoire du vin et des conseils pour acheter et apprécier votre boisson fermentée préférée. Le cours d’introduction d’Oenologic est conçu comme le point de départ de votre voyage éducatif sur le vin et est la condition préalable pour les cours ultérieurs d''Oenologic.'
+  100_series: '100 Séries'
+  100_series_content: 'Ce cours présente les cépages les plus couramment plantés, décrit les vinifications classiques des vins, identifie les régions viticoles ainsi que l’histoire du vin de ces régions et offre des conseils sur la façon de déguster, servir et acheter du vin.'
+  200_series: '200 Séries'
+  200_series_content: 'Ce cours détaille l''ensemble des sujets abordés dans les cours des Novices : plus de cépages, une explication plus fine des processus de vinification, plus d’informations sur les régions viticoles et leur histoire, et des informations supplémentaires pour devenir un(e) meilleur(e) dégusteur ou dégustatrice. Dans ce cours, la viticulture et de l''œnologie sont présentés sous une optique plus scientifique et les professionnels bénéficient d''un guide sur les fondamentaux et meilleures pratiques.'
+  300_series: '300 Séries'
+  300_series_content: 'Ce cours consolide les bases assimilées dans les cours 100 et 200, l''oenologie y est beaucoup plus détaillée et les professionnels acquièrent une compréhension et une connaissance approfondie sur le monde du vin.'
+  400_series: '400 Séries'
+  400_series_content: 'Ce cours est l''aboutissement d’une formation intensive et exhaustive de tous les aspects du vin, depuis la géologie des meilleurs Terroirs du monde jusqu''aux subtilités des processus de fermentation ; De la plantation d''un vignoble en côteaux aux réglementations sur les boissons alcoolisées soumises aux règles des différents pays, ces cours "les Masters d''Oenologic" permettent d''atteindre une connaissance pointue du monde du vin.'
+  about: 'à propos'
+  accept: 'Acceptez'
+  accept_content: 'En navigant sur ce site, vous acceptez notre politique de confidentialité'
+  advanced: 'Confirmé'
+  be_wine_fluent: 'Parler Vin Couramment'
+  become_wine_fluent: 'Devenez un expert du vin'
+  beginner: 'Débutant'
+  certification: 'certification'
+  certification_content: '<p>Le cursus Oenologic, tout en étant ludique et motivant, vise à distiller une expertise viti-vinicole pratique et exhaustive. L''objectif de la plateforme Oenologic est l''acquisition d''un savoir et de connaissances assimilées durablement.</p><p>L''atteinte de cette cible est mesurable par des quizz à la fin de chaque leçon, des tests à la fin de chaque module et un examen à la fin de chaque cours, sanctionné par la délivrance d''un certificat qu''il est même possible (en option) d''authentifier par la technologie de Blockchain Ethereum.</p>'
+  coming_soon_ios: 'Bientôt disponible dans l''Apple store'
+  coming_soon_android: 'Bientôt disponible sur Google Play'
+  consumers: 'Consommateurs'
+  copyright: 'Copyright'
+  copyright_content: 'Oenologic, LLC. Tous droits réservés.'
+  courses: 'Cours'
+  demo: 'Démonstration'
+  discover_more: 'En Savoir Plus'
+  get_started: 'Démarrer'
+  importers_wholesalers: 'Importateurs<br />& Grossistes'
+  intermediate: 'Intermédiaire'
+  learn_more: 'En savoir plus'
+  oenologic: 'Oenologic'
+  oenologic_is_for: 'Oenologic est pour ...'
+  oenologic_is_for_content: 'Oenologic fournit aux restaurants, cavistes et distributeurs un outil d''apprentissage pratique et entièrement personnalisable qu''ils peuvent utiliser pour former et gérer leur personnel. La formation est actualisée et dispensée étape par étape. L''outil est adapté pour répondre à leurs besoins commerciaux, suivre les progrès des employés et créer les bonnes pratiques pour développer leur chiffre et fidéliser leurs clients.'
+  pre_beginner: 'Pré-débutant'
+  pro: 'expert'
+  ready_to_get_started: 'Prêt à démarrer ?'
+  restaurants: 'Restaurateurs'
+  retailers: 'Cavistes'
+  show_site_menu: 'Afficher le menu du site'
+  skip_to_main: 'Aller au contenu principal'
+  starting_out: 'commençant'
+  testimonial: 'Après avoir suivi les cours "les Novices d''Oenologic", je me suis sentie capable de postuler au poste d''assistante sommelière dans le restaurant où j''étais serveuse. J''étudie aujourd''hui pour devenir directrice des boissons du groupe. Merci Oenologic !'
+  testimonial_author: 'Lucie Régnier'
+  testimonial_title: 'assistant sommelier'
+  testimonials: 'témoignages'
+  user: 'Utilisateur'
+  what_people_saying: 'Ce qu''on en dit'
+  wine_basics: 'Introduction'
+  wine_benchmarks: 'Les Masters d''Oenologic'
+  wine_education_appreciation: 'Formation oenologique 2.0'
+  wine_education_content: '<p>Le monde du vin vous intimide ? Vous semble trop compliqué ? Toute cette richesse et complexité du vin - qui le rend justement intéressant - peut sembler difficile à appréhender.</p><p>Au contraire, le vin devrait rimer avec plaisir et bonheur. Il faudrait apprendre sur le vin en s''amusant, de manière intéressante et motivante.</p><p class="mb-2">Nous avons souhaité créer une formation oenologique qui suit ces principes, alliant apprentissange et plaisir. Nous voulons rendre cette connaissance du vin accessible à tous, particuliers et professionnels, en faire des expériences d''apprentissage sur mesure, adaptées à vos connaissances actuelles et à vos centres d''intérêts. Vous pourrez ainsi mieux comprendre et apprécier le vin et découvrir tout ce qui en fait la richesse.</p>'
+  wine_essentials: 'Les Novices d''Oenologic'
+  wine_imperatives: 'Les Confirmés d''Oenologic'
+  wine_standards: 'Les Initiés d''Oenologic'
+
+  lms:
+    african_wines: 'Vins Africains'
+    all_modules: 'Tous les modules'
+    arrow: 'Flèche'
+    asian_wines: 'Vins Asiatiques'
+    australia_mainland: 'Australia Mainland'
+    australian_wine: 'Vin Australian'
+    australian_wines: 'Vins Australian'
+    back: 'en arrière'
+    chevron_right: 'Chevron à droite'
+    chevron_left: 'Chevron à gauche'
+    click_here: 'Cliquez ici'
+    completed: 'Validé'
+    completed_modules: 'Modules<br />acquis'
+    continue_lesson: 'Reprendre la leçon'
+    correct: 'Correct'
+    correct_answer: 'réponse correcte'
+    course_modules: 'Modules du cours'
+    culture: 'Usages'
+    current: 'En cours'
+    current_course: 'Cours actuel'
+    current_course_completion: 'Votre<br />Progression'
+    done: 'fait'
+    european_wines: 'Vins Européens'
+    hours: 'heures'
+    incorrect: 'Incorrect'
+    geography: 'Géographie'
+    geography_of_wine_growing: 'Régions viticoles'
+    grape_varieties: 'Cépages'
+    lesson: 'leçon'
+    lesson_details: 'Détails des leçons'
+    lessons: 'Leçons'
+    middle_east_wines: 'Vins du Moyen Orient'
+    mins: 'mins'
+    module: 'Module'
+    module_details: 'Détails des modules'
+    next: 'Suivant'
+    next_lesson: 'Prochaine leçon'
+    next_question: 'question suivante'
+    north_american_wines: 'Vins Nord Américains'
+    pacific_islands: 'Vins du Pacifique'
+    prev: 'précédent'
+    production: 'Vinification'
+    question: 'Question'
+    question_1: 'Pour quels types de vins, la Tasmanie est-elle connue ?'
+    question_1_a1: 'Des vins pétillants vinifiés en méthode traditionnelle'
+    question_1_a2: 'Vins de macération pelliculaire, vin orange'
+    question_1_a3: 'Des rosés frais et floraux'
+    question_2: 'Citez une raison pour laquelle il est difficile de trouver des vins de Tasmanie ?'
+    question_2_a1: 'Des sols peu adaptés et une viticulture trop chère'
+    question_2_a2: 'Une mer mauvaise rendant les transports maritimes impraticables'
+    question_2_a3: "Un écosystème unique produisant des vins peu communs et non adaptés à l'attente générale des consommateurs"
+    question_3: 'Pourquoi est-il idéal de produire du Chardonnay et du Pinot Noir en Tasmanie ?'
+    question_3_a1: 'Grâce à ses vignobles volcaniques plantés en coteaux'
+    question_3_a2: 'Grâce à ses sols très anciens'
+    question_3_a3: 'Grâce à ses microclimats frais'
+    ready_to_test_knowledge: 'Prêt à tester vos connaissances ?'
+    retake_this_quiz: 'pour faire le test'
+    resume: 'reprendre'
+    review_quiz: 'Reviser le test'
+    review_this_lesson: 'pour revoir la leçon'
+    south_american_wines: 'Vins Sud Américains'
+    start_quiz: 'Démarrer le test'
+    submit: 'Valider'
+    tasmania: 'Tasmanie'
+    tasmania_2: "L'écosystème unique et complexe de la Tasmanie fournit un habitat et des microclimats très variés pour une faune et une flore très diversifiée."
+    tasmania_3: "En Tasmanie, vous pouvez trouver des microclimats frais qui sont parfaits pour la production de raisins de qualité pour les cépages Pinot Noir et Chardonnay. La Tasmanie produit d'excellents vins issus de ces deux cépages."
+    tasmania_4: 'La Tasmanie étant très proche du Pôle Sud, le climat y est frais et les productions de Pinot Noir et Chardonnay participent souvent à la production de vins pétillants.'
+    tasmania_5: "Ces pétillants souvent d'excellente qualité sont vinifiés en méthode Traditionnelle, et ils méritent d'etre recherchés !"
+    tasmania_6: "Il peut etre difficile d'exporter des vins de Tasmanie en raison de la  mer de Tasmanie et ses conditions de navigation très dangereuses."
+    tasmania_7: "Ses vagues peuvent être très grosses et mauvaises, rendant les transports maritimes vers l'Australie impossibles."
+    tasmania_8: 'La Tasmanie en bref :'
+    tasmania_9: 'Chardonnay et Pinot Noir.'
+    tasmania_10: 'Des vins pétillants de très belle qualité.'
+    tasmania_11: 'Une mer de Tasmanie dangereuse.'
+    tasmania_12: 'Des microclimats uniques et variés.'
+    to_do: 'To Do'
+    upcoming: 'à venir'
+    welcome_back: 'Ravi de vous revoir'
+    well_done: 'Félicitations !'
+    wine_essentials_100_series: 'Les Novices d’Oenologic : Série 100'
+    wine_geography_basics: 'Régions viticoles : le b.a.-ba'
+    your_answer: 'votre réponse'
+    your_quiz_result: 'Résultat de votre test'
+    your_score: 'Votre score'
+  
+  quiz:
+    title: 'Test : Région Viticole - Tasmanie'

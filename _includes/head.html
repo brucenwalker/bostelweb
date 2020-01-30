@@ -1,0 +1,34 @@
+<head>
+    {% if jekyll.environment == 'production' %}
+    {% endif %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{%- if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="generator" content="Jekyll v3.8.4" />
+    <meta property="og:title" content="{%- if page.title %}{{ page.title }} | {% endif %}{{ site.title }}" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %} {{ site.description }}{% endif %}" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:site_name" content="{%- if page.title %}{{ page.title }} | {% endif %}{{ site.title }}" />
+    <script type="application/ld+json">{"name":"{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}","description":"{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}","@type":"WebSite","url":"{{ site.url }}{{ page.url }}","headline":"{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}","@context":"http://schema.org"}</script>
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:400,700&display=swap" rel="stylesheet">
+    {%comment%}<link rel="stylesheet" href="/css/style.css">{%endcomment%}
+    <link type="application/atom+xml" rel="alternate" href="{{ site.url }}/feed.xml" title="{{ site.title }}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#42ccfe">
+    <meta name="msapplication-TileColor" content="#42ccfe">
+    <meta name="theme-color" content="#42ccfe">
+    <style>
+    {% capture inline_css %}
+    {% include inline.scss %}
+    {% endcapture %}
+    {{ inline_css | scssify }}
+    </style>
+</head>

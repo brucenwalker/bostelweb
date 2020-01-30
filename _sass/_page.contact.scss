@@ -1,0 +1,10 @@
+.page-contact {
+    .page-header {
+        &:after {
+            background: url('../assets/contact-hero.jpg') $midnight;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+        }
+    }
+}

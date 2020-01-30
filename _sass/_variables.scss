@@ -1,0 +1,69 @@
+// @font-face {
+//     font-family: 'eina04w03-lightregular';
+//     src: url('../assets/eina_04_w03_light-webfont.woff2') format('woff2'),
+//          url('../assets/eina_04_w03_light-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'eina04w03-semiboldregular';
+//     src: url('../assets/eina_04_w03_semibold-webfont.woff2') format('woff2'),
+//          url('../assets/eina_04_w03_semibold-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+@font-face {
+    font-family: 'CircularStd-Book';
+    src: url('../assets/CircularStd-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularStd-Medium';
+    src: url('../assets/CircularStd-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$black: #000;
+$white: #fff;
+$cream: #f1f1f1;
+$neon: #1ED8A3;
+$lavendar: #8E92AF;
+$plum: #393C51;
+$midnight: #0E112B;
+$shadows: #1F222E;
+$darkness: #171924;
+$wine: #A9183C;
+$pink: #DA1D4C;
+$burgundy: #660317;
+$orange: #F36B1C;
+$slate: #04131c;
+$cool: #213449;
+$gray: #979797;
+$gray-dark: #56586A;
+$gray-light: #BFC3DC;
+$navy: #0E112B;
+$blue: #0E112B;
+
+$primary: $orange;
+$secondary: $plum;
+$tertiary: $orange;
+$dark: $midnight;
+$medium: #04131c;
+$error: rgb(250,20,70);
+
+$xs-breakpoint: 30em; /* 420px */
+$sm-breakpoint: 48em; /* 768px */
+//$md-breakpoint: 64em; /* 1024px */
+$md-breakpoint: 62em; /* 992px */
+$md-breakpoint-max: 61.9375em;
+$lg-breakpoint: 75em; /* 1200px */
+$xl-breakpoint: 87.5em; /* 1400px */
+$xxl-breakpoint: 100em; /* 1600px */
+
+$lms-header-height: 4rem;
+$lms-header-height-md: 5rem;

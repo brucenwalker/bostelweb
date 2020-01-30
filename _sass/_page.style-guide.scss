@@ -1,0 +1,29 @@
+.page-style-guide {
+    .page-header {
+        &:after {
+            background: url('../assets/star-map.jpg');
+        }
+    }
+    .page-section--icons {
+        .icon {
+            width: 50px;
+            height: 50px;
+            margin: 20px;
+        }
+    }
+    
+    .image-list {
+        //display: flex;
+
+        img,
+        figure,
+        picture,
+        div {
+            margin: 20px;
+            
+            img {
+                margin: 0;
+            }
+        }
+    }
+}

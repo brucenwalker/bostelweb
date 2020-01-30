@@ -1,0 +1,71 @@
+<div id="module" class="lms-module step">
+    <header class="lms-header">
+        <a href="#" data-step="#course" class="toolbar-action">
+            <svg class="icon"><use xlink:href="/assets/site.svg#arrow" aria-label="{{ site.t.lms.back }}" /></svg>
+        </a>
+        <h1 class="lms-header__title">{{ site.t.lms.module_details }}</h1>
+    </header>
+    <article class="page-content split-panel">
+        <div class="split-panel__sidebar">
+            <img class="module-img" src="/assets/aus-wine.png" />
+            <div class="module">
+                <span class="h5 module-number">{{ site.t.lms.module }} 103</span>
+                <h1 class="h2">{{ site.t.lms.geography_of_wine_growing }}</h1>
+                <div class="module-details">
+                    <div class="module-detail"><svg class="icon"><use xlink:href="/assets/site.svg#lesson" aria-label="{{ site.t.lms.lessons }}" /></svg>9 {{ site.t.lms.lessons }}</div>
+                    <div class="module-detail"><svg class="icon"><use xlink:href="/assets/site.svg#timer" aria-label="{{ site.t.lms.hours }}" /></svg>4 {{ site.t.lms.hours }}</div>
+                </div>
+            </div>
+        </div>
+        <div class="module-lessons split-panel__main">
+            <div class="lesson-list">
+                <h2 class="h5 mb-2">{{ site.t.lms.lessons }}</h2>
+                <div class="lesson-item" data-step="#lesson">
+                    <h3 class="h4 lesson-item__title">{{ site.t.lms.wine_geography_basics }}</h3>
+                    <div class="lesson-item-detail"><svg class="icon icon--disabled"><use xlink:href="/assets/site.svg#timer" aria-label="{{ site.t.lms.mins }}" /></svg>10 {{ site.t.lms.mins }}</div>
+                    <div class="lesson-item-detail"><svg class="icon icon--primary"><use xlink:href="/assets/site.svg#circle-check" aria-label="{{ site.t.lms.done }}" /></svg>{{ site.t.lms.done }}</div>
+                </div>
+                <div class="lesson-item" data-step="#lesson">
+                    <h3 class="h4 lesson-item__title">{{ site.t.lms.middle_east_wines }}</h3>
+                    <div class="lesson-item-detail"><svg class="icon icon--disabled"><use xlink:href="/assets/site.svg#timer" aria-label="{{ site.t.lms.mins }}" /></svg>10 {{ site.t.lms.mins }}</div>
+                    <div class="lesson-item-detail"><svg class="icon icon--primary"><use xlink:href="/assets/site.svg#circle-check" aria-label="{{ site.t.lms.done }}" /></svg>{{ site.t.lms.done }}</div>
+                </div>
+                <div class="lesson-item" data-step="#lesson">
+                    <h3 class="h4 lesson-item__title">{{ site.t.lms.european_wines }}</h3>
+                    <div class="lesson-item-detail"><svg class="icon icon--disabled"><use xlink:href="/assets/site.svg#timer" aria-label="{{ site.t.lms.mins }}" /></svg>10 {{ site.t.lms.mins }}</div>
+                    <div class="lesson-item-detail"><svg class="icon icon--primary"><use xlink:href="/assets/site.svg#circle-check" aria-label="{{ site.t.lms.done }}" /></svg>{{ site.t.lms.done }}</div>
+                </div>
+                <div class="lesson-item" data-step="#lesson">
+                    <h3 class="h4 lesson-item__title">{{ site.t.lms.african_wines }}</h3>
+                    <div class="lesson-item-detail"><svg class="icon icon--disabled"><use xlink:href="/assets/site.svg#timer" aria-label="{{ site.t.lms.mins }}" /></svg>10 {{ site.t.lms.mins }}</div>
+                    <div class="lesson-item-detail"><svg class="icon icon--primary"><use xlink:href="/assets/site.svg#circle-check" aria-label="{{ site.t.lms.done }}" /></svg>{{ site.t.lms.done }}</div>
+                </div>
+                <div class="lesson-item" data-step="#lesson">
+                    <h3 class="h4 lesson-item__title">{{ site.t.lms.south_american_wines }}</h3>
+                    <div class="lesson-item-detail"><svg class="icon icon--disabled"><use xlink:href="/assets/site.svg#timer" aria-label="{{ site.t.lms.mins }}" /></svg>10 {{ site.t.lms.mins }}</div>
+                    <div class="lesson-item-detail"><svg class="icon icon--primary"><use xlink:href="/assets/site.svg#circle-check" aria-label="{{ site.t.lms.done }}" /></svg>{{ site.t.lms.done }}</div>
+                </div>
+                <div class="lesson-item lesson-item--active" data-step="#lesson">
+                    <h3 class="h4 lesson-item__title">{{ site.t.lms.australian_wines }}</h3>
+                    <div class="lesson-item-detail"><svg class="icon icon--disabled"><use xlink:href="/assets/site.svg#timer" aria-label="{{ site.t.lms.mins }}" /></svg>10 {{ site.t.lms.mins }}</div>
+                    <div class="lesson-item-detail"><svg class="icon icon--warning"><use xlink:href="/assets/site.svg#resume-orange" aria-label="{{ site.t.lms.resume }}" /></svg>{{ site.t.lms.resume }}</div>
+                </div>
+                <div class="lesson-item lesson-item--inactive" data-step="#lesson">
+                    <h3 class="h4 lesson-item__title">{{ site.t.lms.asian_wines }}</h3>
+                    <div class="lesson-item-detail"><svg class="icon icon--disabled"><use xlink:href="/assets/site.svg#timer" aria-label="{{ site.t.lms.mins }}" /></svg>15 {{ site.t.lms.mins }}</div>
+                    <div class="lesson-item-detail lesson-item__status"><svg class="icon icon--disabled"><use xlink:href="/assets/site.svg#circle-check" aria-label="{{ site.t.lms.to_do }}" /></svg>{{ site.t.lms.to_do }}</div>
+                </div>
+                <div class="lesson-item lesson-item--inactive" data-step="#lesson">
+                    <h3 class="h4 lesson-item__title">{{ site.t.lms.pacific_islands }}</h3>
+                    <div class="lesson-item-detail"><svg class="icon icon--disabled"><use xlink:href="/assets/site.svg#timer" aria-label="{{ site.t.lms.mins }}" /></svg>15 {{ site.t.lms.mins }}</div>
+                    <div class="lesson-item-detail lesson-item__status"><svg class="icon icon--disabled"><use xlink:href="/assets/site.svg#circle-check" aria-label="{{ site.t.lms.to_do }}" /></svg>{{ site.t.lms.to_do }}</div>
+                </div>
+                <div class="lesson-item lesson-item--inactive" data-step="#lesson">
+                    <h3 class="h4 lesson-item__title">{{ site.t.lms.north_american_wines }}</h3>
+                    <div class="lesson-item-detail"><svg class="icon icon--disabled"><use xlink:href="/assets/site.svg#timer" aria-label="{{ site.t.lms.mins }}" /></svg>15 {{ site.t.lms.mins }}</div>
+                    <div class="lesson-item-detail lesson-item__status"><svg class="icon icon--disabled"><use xlink:href="/assets/site.svg#circle-check" aria-label="{{ site.t.lms.to_do }}" /></svg>{{ site.t.lms.to_do }}</div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>

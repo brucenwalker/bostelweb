@@ -1,0 +1,20 @@
+<div id="quiz-result" class="lms-quiz-result step">
+    <header class="lms-header quiz-header">
+        <h1 class="lms-header__title">{{ site.t.quiz.title }}</h1>
+    </header>
+    <article class="page-content container">
+        <div class="quiz-result">
+            <h1 class="quiz-result-title">{{ site.t.lms.your_quiz_result }}</h1>
+            <div id="quiz-score" class="quiz-score">
+                <div class="quiz-score-inner">
+                    <span class="quiz-score__label">{{ site.t.lms.your_score }}</span>
+                    <div class="quiz-score__percentage" data-quiz-percentage>66%</div>
+                    <span class="quiz-score__score" data-quiz-score>2/3 {{ site.t.lms.correct }}</span>
+                </div>
+            </div>
+            <p>{{ site.t.lms.well_done }} <a href="#" data-reset-lesson>{{ site.t.lms.click_here }}</a> {{ site.t.lms.review_this_lesson }}<br /><a href="#" data-reset-quiz>{{ site.t.lms.click_here }}</a> {{ site.t.lms.retake_this_quiz }}</p>
+            <a href="#" class="btn btn--has-icon" data-step="#module" data-next-lesson><span>{{ site.t.lms.next_lesson }}</span><svg class="icon btn__icon"><use xlink:href="/assets/site.svg#triangle" aria-label="{{ site.t.lms.arrow }}" /></svg></a>
+            <a href="#" class="review-lesson-btn btn btn--plain" data-step="#quiz-review">{{ site.t.lms.review_quiz }}</a>
+        </div>
+    </article>
+</div>

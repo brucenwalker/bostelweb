@@ -1,0 +1,78 @@
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 1.5625rem;
+}
+
+.img-circle {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 50%;
+    max-width: 100%;
+    background-size: cover;
+    overflow: hidden;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        left: 0;
+        height: 100%;
+    }
+
+    &:after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+}
+
+.img-circle--border {
+    border: 2px solid $primary;
+}
+
+.earth-img {
+    img {
+        width: 140%;
+        height: 140%;
+        top: -20%;
+        left: -20%;
+    }
+}
+
+.our-story-img {
+    img {
+        left: -28%;
+    }
+}
+
+.solar-img {
+    img {
+        top: -30px;
+        left: auto;
+        right: -10%;
+        height: 120%;
+    }
+}
+
+.our-name-img {
+    img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+.resource-img {
+    img {
+        top: -25%;
+        left: -130px;
+        height: 125%;
+    }
+}

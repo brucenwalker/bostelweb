@@ -1,0 +1,115 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    <style>    
+        h1, .h1 {
+            font-size: 2rem;
+            margin-bottom: 0.9375rem;
+        }
+    
+        h2, .h2 {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+    
+        h3, .h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.9375rem;
+        }
+    
+        h4, .h4 {
+            font-family: 'eina04w03-lightregular', sans-serif;
+            font-weight: 500;
+            font-size: 1rem;
+            color: #fff;
+            text-transform: none;
+            letter-spacing: 0;
+            margin-bottom: 0.9375rem;
+        }
+    
+        h5, .h5 {
+            font-family: 'eina04w03-semiboldregular';
+            font-weight: 500;
+            font-size: 0.875rem;
+            color: #fff;
+            letter-spacing: 0;
+        }
+    
+        @media (min-width: 62em){
+            h1, .h1 {
+                font-size: 3rem;
+                margin-bottom: 0.9375rem;
+            }
+            
+            h2, .h2 {
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+            
+            h3, .h3 {
+                font-size: 1.5rem;
+                margin-bottom: 0.9375rem;
+            }
+    
+            h4, .h4 {
+                font-family: 'eina04w03-lightregular', sans-serif;
+                font-weight: 500;
+                font-size: 1rem;
+                color: #fff;
+                text-transform: none;
+                letter-spacing: 0;
+                margin-bottom: 0.9375rem;
+            }
+        }
+
+        /* DEMO States */
+        .step {
+            display: none;
+        }
+
+        #course {
+            display: block;
+        }
+
+        .lesson-content__page {
+            display: none;
+        }
+
+        .question {
+            display: none;
+        }
+
+        .lesson-content__page[data-lesson-page="1"] {
+            display: block;
+        }
+
+        .lesson-content-header, 
+        .lesson-content-toolbar,
+        .lesson-content-progressbar {
+            display: none;
+        }
+
+        
+        @media (max-width: 768px) {
+            .lesson-content {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .lesson-content-nav,
+            .lesson-content .progressbar {
+                display: none !important;
+            }
+        }
+    </style>
+    <body {% if page.id %} class="page-{{ page.id }}" {% endif %}>
+        <main id="site-content" class="site-content" aria-label="Content">
+            {{ content }}
+        </main>
+        <script src="/assets/site.js"></script>
+    </body>
+</html>

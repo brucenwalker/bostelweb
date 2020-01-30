@@ -1,0 +1,52 @@
+
+.cognito .c-forms-form {
+    background-color: transparent !important;
+}
+.cognito .c-forms-form .c-forms-form-title h2,
+.cognito .c-forms-form :not(.c-question) > .c-label {
+    color: #575c61 !important;
+}
+
+.cognito form + div {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.cognito,
+.cognito .c-forms-form .c-forms-form-title h2,
+.cognito .c-forms-form :not(.c-question) > .c-label {
+    font-family: 'CircularStd-Book', sans-serif !important;
+    font-size: 1rem !important;
+    color: $gray-dark !important;
+    
+}
+.cognito .c-forms-form :not(.c-question) > .c-label {
+    margin-bottom: 0.5rem;
+}
+.cognito .c-editor.c-yesno-checkbox label {
+    width: 100%;
+}
+.cognito input[type=checkbox] {
+    display: inline-block;
+}
+.cognito .c-forms-form .c-button-section button:not(.c-icon-button),
+.cognito .c-forms-form button:not(.c-icon-button) {
+    min-width: 250px !important;
+    @extend .btn;
+
+    &:hover {
+        background: darken($primary, 10);
+    }
+}
+.cognito .c-forms-form .c-fileupload-dropzone .c-upload-button button {
+    font-size: 0.875rem !important;
+}
+
+.cognito input[type=file] {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.125rem !important;
+    font-weight: 500;
+    padding: .1875rem 1.25rem;
+    transition: background-color .2s, color .2s;
+}

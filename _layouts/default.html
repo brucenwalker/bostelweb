@@ -1,0 +1,15 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang={{ site.lang }}>
+    {% include head.html %}
+    <body {% if page.id %} class="page page-{{ page.id }} lang-{{ site.lang }}"{% else %} class="page page-404 lang-{{ site.lang }}"{% endif %}>
+        {% include header.html %}
+        <main id="site-content" class="site-content" aria-label="Content">
+            {{ content }}
+        </main>
+        {% include footer.html %}
+        <script src="/assets/site.js"></script>
+    </body>
+</html>

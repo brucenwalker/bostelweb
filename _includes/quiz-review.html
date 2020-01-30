@@ -1,0 +1,65 @@
+<div id="quiz-review" class="lms-quiz-review step">
+    <header class="lms-header quiz-header">
+        <h3 class="lms-header__title hide-sm">{{ site.t.quiz.title }}</h3>
+        <a href="#" class="review-lesson-btn btn btn--plain hide-md" data-step="#quiz-result"><svg class="icon icon--close"><use xlink:href="/assets/site.svg#close" aria-label="{{ site.t.lms.incorrect }}" /></svg> {{ site.t.lms.review_quiz }}</a>
+    </header>
+    <article class="page-content container">
+        <a href="#" class="review-lesson-btn btn btn--plain hide-sm" data-step="#quiz-result"><svg class="icon icon--close"><use xlink:href="/assets/site.svg#close" aria-label="{{ site.t.lms.incorrect }}" /></svg> {{ site.t.lms.review_quiz }}</a>
+        <div class="quiz-review">
+            <div class="review-question" data-quiz-question="1" data-correct-answer="a">
+                <div class="question-number">1</div>
+                <div>
+                    <h3 class="h3 review-question__title">{{ site.t.lms.question_1 }}</h3>
+                    <div class="review-answer" data-question-answer="a">
+                        <svg class="icon icon--primary icon--correct"><use xlink:href="/assets/site.svg#circle-check" aria-label="{{ site.t.lms.correct }}" /></svg>
+                        <span class="review-answer__txt"><span class="text--primary label">{{ site.t.lms.correct_answer }}</span><br />{{ site.t.lms.question_1_a1 }}</span>
+                    </div>
+                    <div class="review-answer" data-question-answer="b">
+                        <svg class="icon icon--incorrect"><use xlink:href="/assets/site.svg#circle-x" aria-label="{{ site.t.lms.incorrect }}" /></svg>
+                        <span class="review-answer__txt"><span class="text--error label">{{ site.t.lms.your_answer }}</span><br />{{ site.t.lms.question_1_a2 }}</span>
+                    </div>
+                    <div class="review-answer" data-question-answer="c">
+                        <svg class="icon icon--incorrect"><use xlink:href="/assets/site.svg#circle-x" aria-label="{{ site.t.lms.incorrect }}" /></svg>
+                        <span class="review-answer__txt"><span class="text--error label">{{ site.t.lms.your_answer }}</span><br />{{ site.t.lms.question_1_a3 }}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="review-question" data-quiz-question="2" data-correct-answer="b">
+                <div class="question-number">2</div>
+                <div>
+                    <h3 class="h3 review-question__title">{{ site.t.lms.question_2 }}</h3>
+                    <div class="review-answer" data-question-answer="b">
+                        <svg class="icon icon--primary icon--correct"><use xlink:href="/assets/site.svg#circle-check" aria-label="{{ site.t.lms.correct }}" /></svg>
+                        <span class="review-answer__txt"><span class="text--primary label">{{ site.t.lms.correct_answer }}</span><br />{{ site.t.lms.question_2_a2 }}</span>
+                    </div>
+                    <div class="review-answer" data-question-answer="a">
+                        <svg class="icon icon--incorrect"><use xlink:href="/assets/site.svg#circle-x" aria-label="{{ site.t.lms.incorrect }}" /></svg>
+                        <span class="review-answer__txt"><span class="text--error label">{{ site.t.lms.your_answer }}</span><br />{{ site.t.lms.question_2_a1 }}</span>
+                    </div>
+                    <div class="review-answer" data-question-answer="c">
+                        <svg class="icon icon--incorrect"><use xlink:href="/assets/site.svg#circle-x" aria-label="{{ site.t.lms.incorrect }}" /></svg>
+                        <span class="review-answer__txt"><span class="text--error label">{{ site.t.lms.your_answer }}</span><br />{{ site.t.lms.question_2_a3 }}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="review-question" data-quiz-question="3" data-correct-answer="c">
+                <div class="question-number">3</div>
+                <div>
+                    <h3 class="h3 review-question__title">{{ site.t.lms.question_3 }}</h3>
+                    <div class="review-answer" data-question-answer="c">
+                        <svg class="icon icon--primary icon--correct"><use xlink:href="/assets/site.svg#circle-check" aria-label="{{ site.t.lms.correct }}" /></svg>
+                        <span class="review-answer__txt"><span class="text--primary label">{{ site.t.lms.correct_answer }}</span><br />{{ site.t.lms.question_3_a3 }}</span>
+                    </div>
+                    <div class="review-answer" data-question-answer="a">
+                        <svg class="icon icon--incorrect"><use xlink:href="/assets/site.svg#circle-x" aria-label="{{ site.t.lms.incorrect }}" /></svg>
+                        <span class="review-answer__txt"><span class="text--error label">{{ site.t.lms.your_answer }}</span><br />{{ site.t.lms.question_3_a1 }}</span>
+                    </div>
+                    <div class="review-answer" data-question-answer="b">
+                        <svg class="icon icon--incorrect"><use xlink:href="/assets/site.svg#circle-x" aria-label="{{ site.t.lms.incorrect }}" /></svg>
+                        <span class="review-answer__txt"><span class="text--error label">{{ site.t.lms.your_answer }}</span><br />{{ site.t.lms.question_3_a2 }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>

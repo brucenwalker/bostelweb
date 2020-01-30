@@ -1,0 +1,15 @@
+.list-nav {
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid $plum;
+        padding: 1rem 0;
+        font-size: 0.875rem;
+        font-weight: 500;
+
+        &.is-active {
+            color: $primary;
+        }
+    }
+}

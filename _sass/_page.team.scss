@@ -1,0 +1,23 @@
+.page-team {
+    .page-header {
+        &:after {
+            background: url('../assets/team-hero.jpg') $midnight;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            top: 50px;
+        }
+
+
+    }
+}
+
+@media (min-width: $md-breakpoint) {
+    .page-team {
+        .page-header {
+            &:after {
+                top: 100px;
+            }
+        }
+    }
+}

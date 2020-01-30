@@ -1,0 +1,93 @@
+.lms-header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: $lms-header-height;
+    background: $shadows;
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0;
+        font-family: 'eina04w03-semiboldregular';
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        margin: 0 auto 0 1.5rem;
+    }
+
+    .site-logo {
+        margin: 0;
+    }
+
+    @media (min-width: $md-breakpoint) {
+        height: $lms-header-height-md;
+
+        &__title {
+            font-size: 0.875rem;
+            margin-left: 2rem;
+        }
+    }
+}
+
+.course-header,
+.quiz-header {
+    padding: 0 1.5rem;
+}
+
+.quiz-header {
+    .lms-header__title {
+        margin: 0;
+    }
+}
+
+
+.toolbar-menu {
+    a {
+        display: inline-block;
+        height: 100%;
+        font-family: 'eina04w03-semiboldregular';
+        font-size: 0.75rem;
+        line-height: 4rem;
+        text-transform: uppercase;
+        color: $white;
+
+        &.is-active {
+            border-bottom: 2px solid $primary;
+        }
+    }
+
+    @media (min-width: $md-breakpoint) {
+        a {
+            line-height: 5rem;
+            font-size: 0.875rem;
+        }
+    }
+}
+
+.toolbar-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+    border-right: 1px solid $plum;
+    height: 100%;
+
+    svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    @media (min-width: $md-breakpoint) {
+        svg {
+            width: 25px;
+            height: 25px;
+        }
+    }
+}

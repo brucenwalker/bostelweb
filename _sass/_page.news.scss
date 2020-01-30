@@ -1,0 +1,13 @@
+.page-news {
+    .page-header {
+        &:after {
+            background: url('../assets/home-hero.jpg') $midnight;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+        }
+    }
+}
+
+@media (min-width: $md-breakpoint) {
+}

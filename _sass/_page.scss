@@ -1,0 +1,122 @@
+.page {
+    h3, .h3 {
+        color: $gray-dark;
+    }
+    h5, .h5 {
+        font-size: 1rem;
+    }
+    .page-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 12rem 0 8rem 0;
+        position: relative;
+        
+        // &:after {
+        //     z-index: -1;
+        //     background: $primary;
+        // }
+
+        &__content {
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: center;
+            // width: 100%;
+        }
+
+        .page-subtitle {
+            color: $white;
+        }
+
+        @media (min-width: $md-breakpoint) {
+            padding: 14rem 0 12rem 0;
+        }
+    }
+    
+    .page-subtitle {
+        font-family: 'CircularStd-Book', sans-serif;
+        font-size: 1.25rem;
+        line-height: 1.25;
+        color: $white;
+        
+        @media (min-width: $md-breakpoint) {
+            font-size: 1.5rem;
+        }
+    }
+
+    .section-get-started {
+        padding: 4rem 0 0 0;
+        background: $navy;
+
+        .col-img {
+            position: relative;
+            z-index: 2;
+            img {
+                margin-bottom: 2rem;
+            }
+        }
+
+        .page-section__content {
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-self: flex-start;
+        }
+
+        .arch {
+            position: absolute;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            top: -2rem;
+            height: 100%;
+            width: 100%;
+        
+            &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                height: 200%;
+                background: $primary;
+                width: 500%;
+                left: -200%;
+                border-radius: 400% 400% 0 0;
+                z-index: 0;
+                
+                @media (min-width: $md-breakpoint) {
+                    width: 400%;
+                    left: -150%;
+                }
+            }
+        }
+
+        @media (min-width: $md-breakpoint) {
+            padding: 12rem 0 8rem 0;
+
+            .page-section__content {
+                min-height: 28rem;
+            }
+
+            .col-img {
+                img {
+                    position: absolute;
+                    top: -30rem;
+                    width: 1025px;
+                    height: 1025px;
+                    max-width: none;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $md-breakpoint) {
+    .page {
+        .page-header {
+            &__content {
+            }
+        }
+    }
+}

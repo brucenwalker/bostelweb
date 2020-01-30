@@ -1,0 +1,119 @@
+$radius: 100;
+$pi: 3.14159265359;
+$speed: 0.75;
+$duration: 3s / $speed;
+
+.play-btn {
+  position: relative;
+  width: 52px;
+  height: 52px;
+  border-radius: 52px;
+  box-shadow: 0 0 0 5px rgba($white, 0.25);
+  background: rgba(#DA1D4C, 0.3);
+  cursor: pointer;
+
+  &__arrow {
+    position: absolute;
+    top: calc(50% - 7px);
+    left: calc(50% - 6px);
+    z-index: 1;
+    width: 14px;
+    height: 12px;
+  }
+
+  #slosh {
+    display: block;
+    position: absolute;
+    top: -26px;
+    left: -26px;
+    width: 104px;
+    height: 104px;
+  }
+
+  @media(min-width: $md-breakpoint){
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    box-shadow: 0 0 0 10px rgba($white, 0.25);
+
+    &__arrow {
+      top: calc(50% - 14px);
+      left: calc(50% - 17px);
+      width: 34px;
+      height: 28px;
+    }
+
+    #slosh {
+      top: -45px;
+      left: -45px;
+      width: 180px;
+      height: 180px;
+    }
+  }
+}
+
+#slosh {
+  // width: 100vmin;
+  // height: 100vmin;
+  // position: absolute;
+  // left: 50vw;
+  // top: 50vh;
+  // transform: translate(-50%, -50%);
+}
+
+#border>circle {
+  stroke-linecap: round;
+  transform-origin: 50% 50%;
+  transform: rotate(-90deg);
+  animation: border $duration cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+}
+
+#front-wave {
+  transform-origin: 50% 75%;
+  animation: front-tilt $duration ease-in-out infinite;
+  >path {
+    transform-origin: 50% 75%;
+    animation: front-rise $duration cubic-bezier(0.05, 0.05, 0.75, 0.95) infinite;
+  }
+}
+
+#rear-wave {
+  transform-origin: 50% 75%;
+  >path {
+    transform-origin: 50% 75%;
+    animation: rear-rise $duration cubic-bezier(0.3, 0.05, 0.65, 0.95) infinite;
+  }
+}
+
+@keyframes front-rise {
+  0%, 20% {
+    transform: translate(10px, 230px) scaleY(2.7) scaleX(1.4);
+  }
+  90%, 100% {
+    transform: translate(-600px, -185px) scaleY(0.25) scaleX(1.4);
+  }
+}
+
+@keyframes front-tilt {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(10deg); }
+  20% { transform: rotate(-20deg); }
+  40% { transform: rotate(10deg); }
+  60% { transform: rotate(-4deg); }
+  80% { transform: rotate(2deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes rear-rise {
+  0%, 6% {
+    transform: translate(0, 140px) scaleY(1.2) scaleX(1.4);
+  }
+  94%, 100% {
+    transform: translate(600px, -185px) scaleY(0.25) scaleX(1.4);
+  }
+}
+
+@keyframes border {
+	0% { stroke-dasharray: 0 ($pi * $radius * 2); }
+	28% { stroke-dasharray: 0 0 ($pi * $radius * 2); }
+}

@@ -1,0 +1,42 @@
+<a class="skip-navigation" href="#site-content">{{ site.t.skip_to_main }}</a> 
+<header class="site-header">
+    <div class="site-header__content container">
+        <!-- <a class="demo-btn" href="/contact/" aria-label="{{ site.t.demo }}">{{ site.t.login }} <svg class="icon icon--user"><use xlink:href="/assets/site.svg#user-outline" /></svg></a> -->
+        <nav class="mobile-nav">
+            <svg class="icon icon--close close-btn"><use xlink:href="/assets/site.svg#close" /></svg>
+            <ul class="site-menu">
+                <li><a href="/team" {% if page.slug == 'team' %}class="is-active"{% endif %}>{{ site.t.team }}</a></li>
+                <li><a href="/publications" {% if page.slug == 'publications' %}class="is-active"{% endif %}>{{ site.t.publications }}</a></li>
+                <li><a href="/news/" {% if page.slug == 'news' %}class="is-active"{% endif %}>{{ site.t.news }}</a></li>
+                <li><a href="/contact" {% if page.slug == 'contact' %}class="is-active"{% endif %}>{{ site.t.contact }}</a></li>
+            </ul>
+            <!-- <div class="mobile-nav__footer">
+                <a href="/contact" class="btn"><svg class="icon btn__icon"><use xlink:href="/assets/site.svg#user" aria-label="{{ site.t.user }}" /></svg>{{ site.t.login }}</a>
+                <img src="/assets/app-store.svg" alt="{{ site.t.coming_soon_ios }}" />
+                <img src="/assets/google-play.svg" alt="{{ site.t.coming_soon_android }}" />
+            </div> -->
+        </nav>
+        <a class="site-title" href="/">
+            <img class="site-logo" src="/assets/logo.svg" alt="Bostel">
+        </a>
+        <nav class="site-nav">
+            <ul class="site-menu">
+                <li><a href="/team" {% if page.slug == 'team' %}class="is-active"{% endif %}>{{ site.t.team }}</a></li>
+                <li><a href="/publications" {% if page.slug == 'publications' %}class="is-active"{% endif %}>{{ site.t.publications }}</a></li>
+                <li><a href="/news/" {% if page.slug == 'news' %}class="is-active"{% endif %}>{{ site.t.news }}</a></li>
+                <li><a href="/contact" {% if page.slug == 'contact' %}class="is-active"{% endif %}>{{ site.t.contact }}</a></li>
+            </ul>
+        </nav>
+        <div id="menu-toggle" class="menu-btn noselect" aria-haspopup="true" aria-expanded="false" aria-label="{{ site.t.show_site_menu }}">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <!-- <div id="menu-toggle" class="menu-btn noselect" aria-haspopup="true" aria-expanded="false" aria-label="{{ site.t.show_site_menu }}">
+            <div id="first-part"></div>
+            <div id="second-part"></div>
+            <div id="third-part"></div>
+            <div id="fourth-part"></div>
+        </div> -->
+    </div>
+</header>

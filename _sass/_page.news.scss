@@ -11,3 +11,29 @@
 
 @media (min-width: $md-breakpoint) {
 }
+
+.news-item {
+    padding: 3.125rem 2rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
+    margin-bottom: 4rem;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &-title {
+        margin-bottom: 0;
+    }
+
+    &-date {
+        color: $gray-light;
+    }
+}
+
+@media (min-width: $md-breakpoint) {
+    .news-item {
+        padding: 3.125rem 6.25rem;
+        margin-bottom: 6.875rem;
+    }
+}

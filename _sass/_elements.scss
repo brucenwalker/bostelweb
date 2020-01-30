@@ -33,8 +33,9 @@ h2, .h2 {
 
 h3, .h3 {
     font-family: 'Abhaya Libre', serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.75rem;
+    color: $navy;
 }
 
 h4, .h4 {
@@ -136,7 +137,7 @@ blockquote {
     }
     
     h3, .h3 {
-        font-size: 1.75rem;
+        font-size: 2rem;
         margin-bottom: 0.9375rem;
     }
 

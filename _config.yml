@@ -59,6 +59,7 @@ sass:
 
 collections:
   - team_members
+  - news
 
 lang: 'en'
 # Translation strings

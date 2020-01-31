@@ -132,13 +132,13 @@ blockquote {
     }
 
     h1, .h1 {
-        font-size: 5rem;
+        font-size: 3rem;
         line-height: 1;
         margin-bottom: 0.9375rem;
     }
     
     h2, .h2 {
-        font-size: 3rem;
+        font-size: 2.25rem;
         margin-bottom: 1.75rem;
     }
     
@@ -159,8 +159,17 @@ blockquote {
     p {
         font-size: 1rem;
     }
+}
 
-    // p + .btn {
-    //     margin-top: 1.25rem;
-    // }
+@media (min-width: $lg-breakpoint){
+    h1, .h1 {
+        font-size: 5rem;
+        line-height: 1;
+        margin-bottom: 0.9375rem;
+    }
+    
+    h2, .h2 {
+        font-size: 3rem;
+        margin-bottom: 1.75rem;
+    }
 }

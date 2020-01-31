@@ -7,7 +7,7 @@
     position: relative;
     margin-top: 3.125rem;
     min-height: 18.75rem;
-    padding: 2rem 0;
+    padding: 3rem 0;
 
     &:after {
         content: '';
@@ -28,7 +28,7 @@
     }
 
     .page-label {
-        margin: 0;
+        margin-bottom: 0.25rem;
         display: block;
     }
 
@@ -37,7 +37,7 @@
 .page-header__content {
     position: relative;
     z-index: 1;
-    padding: 0 1.25rem;
+    padding: 0 1.5625rem;
 }
 
 

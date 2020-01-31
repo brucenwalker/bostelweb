@@ -46,29 +46,3 @@
         }
     }
 }
-
-.news-item {
-    padding: 3.125rem 2rem;
-    border-radius: 0.625rem;
-    box-shadow: $box-shadow;
-    margin-bottom: 4rem;
-
-    &:last-child {
-        margin-bottom: 0;
-    }
-
-    &-title {
-        margin-bottom: 0;
-    }
-
-    &-date {
-        color: $gray-light;
-    }
-}
-
-@media (min-width: $md-breakpoint) {
-    .news-item {
-        padding: 3.125rem 6.25rem;
-        margin-bottom: 6.875rem;
-    }
-}

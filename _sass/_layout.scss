@@ -44,7 +44,7 @@ body {
 
 .page-section {
     position: relative;
-    padding: 4rem 0 6rem;
+    padding: 2rem 0;
 
     img {
         max-width: 100%;
@@ -102,6 +102,11 @@ body {
             position: inherit
         }
     }
+    
+    .page-section {
+        padding: 4rem 0 6rem;
+    }
+
     .page-content-header {
         padding: 50px 0 0 0;
         margin-bottom: 50px;

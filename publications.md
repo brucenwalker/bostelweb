@@ -25,7 +25,7 @@ slug: publications
                         <h2 class="h4">Dermoscopy diagnosis of cancerous lesions utilizing dual deep learning algorithms via visual and audio (sonification) outputs: Laboratory and prospective observational studies</h2>
                         <div class="publication-footer">
                             <a href="/dermoscopy-diagnosis-cancerous-lesions">Read More</a>
-                            <a class="btn btn--icon btn--icon-light pdf-btn" href="#" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
+                            <a class="btn btn--icon btn--icon-light pdf-btn" href="/assets/PIIS2352396419300337.PDF" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
                         </div>
                     </div>
                     <div class="publication">
@@ -33,7 +33,7 @@ slug: publications
                         <h2 class="h4">Skin cancer detection by deep learning and sound analysis algorithms: A prospective clinical study of an elementary dermoscope</h2>
                         <div class="publication-footer">
                             <a href="/skin-cancer-detection-deep-learning-sound-analysis-algorithms">Read More</a>
-                            <a class="btn btn--icon btn--icon-light pdf-btn" href="#" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
+                            <a class="btn btn--icon btn--icon-light pdf-btn" href="/assets/PIIS2352396419302944.pdf" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
                         </div>
                     </div>
                 </div>

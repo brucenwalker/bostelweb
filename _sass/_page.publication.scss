@@ -9,6 +9,27 @@
             background-position: center center;
         }
     }
+
+    .publication-header__footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+
+    .publication-download {
+        svg {
+            vertical-align: middle;
+            fill: $primary;
+            width: 1.25rem;
+            height: 1.25rem;
+            margin-right: 0.5rem;
+        }
+    }
+
+    .publication-date {
+        color: $white;
+    }
 }
 
 @media (min-width: $md-breakpoint) {
@@ -17,6 +38,11 @@
             &__content {
                 margin-top: 0;
             }
+        }
+
+        .publication-header__footer{
+            flex-direction: row;
+            justify-content: space-between;
         }
     }
 }

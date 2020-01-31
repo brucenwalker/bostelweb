@@ -7,6 +7,7 @@ layout: default
 title: >
     Dermoscopy diagnosis of cancerous lesions utilizing dual deep learning algorithms via visual and audio (sonification) outputs: Laboratory and prospective observational studies
 description: 
+date: 2019-01-20
 slug: dermoscopy-diagnosis-cancerous-lesions
 ---
 <div class="page-publication">
@@ -14,6 +15,10 @@ slug: dermoscopy-diagnosis-cancerous-lesions
     <div class="page-header__content container">
         <a href="/publications" class="h5 page-label">Back to Publications</a>
         <h1 class="h2 page-title">Dermoscopy diagnosis of cancerous lesions utilizing dual deep learning algorithms via visual and audio (sonification) outputs: Laboratory and prospective observational studies</h1>
+        <div class="publication-header__footer">
+            <p class="publication-date">Published: {{ page.date | date: "%B %d, %Y" }}</p>
+            <a class="publication-download" href="/assets/PIIS2352396419300337.PDF" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg> Download PDF</a>
+        </div>
     </div>
 </div>
 <article class="page-content container"> 

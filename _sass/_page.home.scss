@@ -36,6 +36,9 @@
                 top: 0%;
                 left: 0;
                 transform-origin: top left;
+                width: auto;
+                max-width: none;
+                height: 100%;
             }
         }
     }
@@ -54,6 +57,10 @@
         .col-img {
             .img {
                 border-radius: 6rem 0.5rem 0.5rem 0.5rem;
+
+                img {
+                    left: -10%;
+                }
             }
         }
 
@@ -124,6 +131,10 @@
             .img {
                 overflow: hidden;
                 border-radius: 0.5rem 6rem 0.5rem 0.5rem;
+
+                img {
+                    left: -10%;
+                }
             }
         }
 
@@ -259,11 +270,11 @@
 
     img {
         position: absolute;
-        top: 50%;
+        top: 0;
         bottom: 0;
         left: 0;
         width: 100%;
-        transform: translateY(-50%);
+        // transform: translateY(-50%);
     }
 }
 

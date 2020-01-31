@@ -15,220 +15,100 @@ description:
             <a href="#" class="btn btn--lg">{{ site.t.learn_more }}</a>
         </div>
     </div>
-    <!-- <a href="#programs" class="discover-more-btn">
-        <span class="label">{{ site.t.learn_more }}</span>
-        <span class="line">
-            <span class="line-inner"></span>
-        </span>
-    </a> -->
 </div>
-<article class="page-content">     
-    <section class="page-section section-deep-learning container">
-        <div class="row">
-            <div class="col">
-                <h2 class="h5">A New Frontier</h2>
-                <h3 class="h2">Deep Learning Diagnostic for Skin Malignancy</h3>
-                <p>Bostel Technologies is a clinical-stage healthcare company that has developed Melody, a patented unique Dual Deep Learning technology in order to facilitate the diagnosis of skin cancer by dermoscopy.</p>
-            </div>
-        </div>
-    </section>
-    <section class="page-section section-data container">
-        <div class="row">
-            <div class="col col-img">
-                <div class="img">
-                <img src="/assets/deep-learning.jpg" alt="a doctor examines a spot on a patient's back" data-scroll-zoom />
+<article class="page-content">   
+    <div class="container">
+        <section class="page-section section-deep-learning">
+            <div class="row">
+                <div class="col">
+                    <h2 class="h5">A New Frontier</h2>
+                    <h3 class="h2">Deep Learning Diagnostic for Skin Malignancy</h3>
+                    <p>Bostel Technologies is a clinical-stage healthcare company that has developed Melody, a patented unique Dual Deep Learning technology in order to facilitate the diagnosis of skin cancer by dermoscopy.</p>
                 </div>
             </div>
-            <div class="col col-desc">
-                <div class="data-point">
-                    <div class="data-point__title">
-                        <img class="data-point__img" src="/assets/alert-badge.svg" alt="Alert" aria-hidden="true" />
-                        <h4>Skin cancers are among the most frequent ones</h4>
-                    </div>
-                    <p>Currently, between 2 and 3 million non-melanoma skin cancers and 132,000 melanoma skin cancers occur globally each year. One in every three cancers diagnosed is a skin cancer and, according to Skin Cancer Foundation Statistics, one in every five Americans will develop skin cancer in their lifetime.</p>
-                </div>
-                <div class="data-point">
-                    <div class="data-point__title">
-                        <img class="data-point__img" src="/assets/bio-badge.svg" alt="Biohazard" aria-hidden="true" />
-                        <h4>An issue of growing importance</h4>
-                    </div>
-                    <p>Longer living, lifestyle choice favoring sun exposure and depletion of the protective ozone layer are leading to a rapid increase in skin cancer.
-    With a growing segment of the population aged 60 and above and depleting ozone layers, the number of Melanoma cases is projected by The WHO to increase by +30% by 2030</p>
-                </div>
-                <div class="data-point">
-                    <div class="data-point__title">
-                        <img class="data-point__img" src="/assets/stethoscope-badge.svg" alt="Stethoscope" aria-hidden="true" />
-                        <h4>Significant unmet medical need</h4>
-                    </div>
-                    <p>This causes precious resources - time and money - to be under utilized and cases the need for a more effective methodology for detecting skin cancer. Today, about 30 biopsies are performed to detect one melanoma.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="page-section section-technology container">
-        <div class="section-title">
-            <h2 class="h5">How the Technology Works</h2>
-            <h3 class="h2">Skin Cancer Diagnosis by Dual Deep Learning Technology</h3>
-        </div>
-        <div class="video-container">
-            <img src="/assets/technology-video-poster.jpg" alt="a hand isolating a cancerous mole" />
-        </div>
-    </section>
-    <section class="page-section section-clients container">
-        <h2 class="h5">Clients</h2>
-        <h3 class="h2">Bostel is Used By</h3>
-        <div class="feature-blocks">
-            <div class="feature-block">
-                <img class="feature-block__img" src="/assets/hospitals.svg" alt="Hospital" aria-hidden="true" />
-                <h4 class="feature-block__title">Hospitals, clinics and medical centers</h4>
-            </div>
-            <div class="feature-block">
-                <img class="feature-block__img" src="/assets/calendar.svg" alt="Hospital" aria-hidden="true" />
-                <h4 class="feature-block__title">Pharmacies and point of care locations</h4>
-            </div>
-            <div class="feature-block">
-                <img class="feature-block__img" src="/assets/calendar.svg" alt="Healthcare Professional" aria-hidden="true" />
-                <h4 class="feature-block__title">Healthcare professionals</h4>
-            </div>
-            <div class="feature-block">
-                <img class="feature-block__img" src="/assets/nurse.svg" alt="Payers" aria-hidden="true" />
-                <h4 class="feature-block__title">Payers and healthcare insurers</h4>
-            </div>
-        </div>
-    </section>
-    <section class="page-section section-experts container">
-        <div class="row">
-            <div class="col col-img">
-                <div class="img">
-                    <img src="/assets/pioneered-home.jpg" alt="a doctor" data-scroll-zoom />
-                </div>
-            </div>
-            <div class="col col-desc">
-                <h2 class="h5">Team of Experts</h2>
-                <h3 class="h2">Pioneered by leading authorities</h3>
-                <p>We have leveraged signification and artificial intelligence to create a new diagnostic paradigm with clinically-proven sensitivity and specificity.  This patent protected platform empowers healthcare professionals to efficiently and effectively diagnose melanoma lesions using dermoscopy so they can focus on improving outcomes and helping their patients.</p>
-                <a href="/contact" class="btn btn--lg">Contact Us</a>
-            </div>
-        </div>
-    </section>
-    <!-- <section class="page-section section-jobs container">
-        <div class="row">
-            <div class="col">
-                <div class="h4">{{ site.t.upskill_for_better_future }}</div>
-                <h2>{{ site.t.jobs_with_meaning }}</h2>
-                <img class="hide-sm" src="/assets/app-store-outline.svg" alt="{{ site.t.coming_soon_ios }}" />
-                <img class="hide-sm" src="/assets/google-play.svg" alt="{{ site.t.coming_soon_android }}" />
-            </div>
-            <div class="col ml-md-5 pt-md-2 txt-md-center">
-                {{ site.t.jobs_content | 'html' }}
-                <img class="hide-md mb-1" src="/assets/app-store-outline.svg" alt="{{ site.t.coming_soon_ios }}" />
-                <img class="hide-md mb-1" src="/assets/google-play.svg" alt="{{ site.t.coming_soon_android }}" />
-            </div>
-        </div>
-    </section>
-    <section id="programs" class="page-section section-courses container container--wide">
-        <h2 class="section-title">{{ site.t.our_caregiving_programs }}</h2>
-        <div class="courses courses-container">
-            <div id="course-introduction" class="course">
-                <div class="h4 course__subtitle">{{ site.t.basics }}</div>
-                <h3 class="course__title">{{ site.t.introduction }}</h3>
-                <p class="course__desc">{{ site.t.intro_content }}</p>
-                <a href="/contact/" class="btn get-started-btn">{{ site.t.get_started }}</a>
-            </div>
-            <div id="course-fundamentals" class="course">
-                <div class="h4 course__subtitle">{{ site.t.beginner }}</div>
-                <h3 class="course__title">{{ site.t.fundamentals }}</h3>
-                <p class="course__desc">{{ site.t.fundamentals_content }}</p>
-                <a href="/contact/" class="btn get-started-btn">{{ site.t.get_started }}</a>
-            </div>
-            <div id="course-care-safety" class="course">
-                <div class="h4 course__subtitle">{{ site.t.advanced }}</div>
-                <h3 class="course__title">{{ site.t.care_safety }}</h3>
-                <p class="course__desc">{{ site.t.care_safety_content }}</p>
-                <a href="/contact/" class="btn btn--info get-started-btn">{{ site.t.coming_soon }}</a>
-            </div>
-            <div id="course-related-conditions" class="course">
-                <div class="h4 course__subtitle">{{ site.t.advanced }}</div>
-                <h3 class="course__title">{{ site.t.age_related_conditions }}</h3>
-                <p class="course__desc">{{ site.t.age_related_content }}</p>
-                <a href="/contact/" class="btn btn--info get-started-btn">{{ site.t.coming_soon }}</a>
-            </div>
-            <div id="course-complex-care" class="course">
-                <div class="h4 course__subtitle">{{ site.t.expert }}</div>
-                <h3 class="course__title">{{ site.t.complex_care }}</h3>
-                <p class="course__desc">{{ site.t.complex_care_content }}</p>
-                <a href="/contact/" class="btn btn--info get-started-btn">{{ site.t.coming_soon }}</a>
-            </div>
-        </div>
-    </section>
-    <section id="about" class="page-section section-is-for">
-        <div class="container">
-            <h2>{{ site.t.care_campus_is_for }}</h2>
-            <p class="page-section__content mb-4">{{ site.t.care_campus_content }}</p>
-        </div>
-        <div class="features-container container">
-            <div class="features">
-                <div class="feature">
-                    <div class="tile feature__tile">
-                        <svg class="tile__icon"><use xlink:href="/assets/site.svg#families" aria-label="Consumer" /></svg>
-                        <div class="tile__title">{{ site.t.families }}</div>
-                        <a href="/contact/" class="tile__btn btn btn--light">{{ site.t.learn_more }}</a>
-                    </div>
-                </div>
-                <div class="feature">
-                    <div class="tile feature__tile">
-                        <svg class="tile__icon"><use xlink:href="/assets/site.svg#homecare" aria-label="Restaurant" /></svg>
-                        <div class="tile__title">{{ site.t.home_care }}</div>
-                        <a href="/contact/" class="tile__btn btn btn--light">{{ site.t.learn_more }}</a>
-                    </div>
-                </div>
-                <div class="feature">
-                    <div class="tile feature__tile">
-                        <svg class="tile__icon"><use xlink:href="/assets/site.svg#long-term-care" aria-label="Retailer" /></svg>
-                        <div class="tile__title">{{ site.t.long_term_care }}</div>
-                        <a href="/contact/" class="tile__btn btn btn--light">{{ site.t.learn_more }}</a>
-                    </div>
-                </div>
-                <div class="feature">
-                    <div class="tile feature__tile">
-                        <svg class="tile__icon"><use xlink:href="/assets/site.svg#assisted-living" aria-label="Consumer" /></svg>
-                        <div class="tile__title">{{ site.t.assisted_living }}</div>
-                        <a href="/contact/" class="tile__btn btn btn--light">{{ site.t.learn_more }}</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="testimonials" class="page-section section-testimonial container">
-        <div class="row">
-            <div class="col pr-md-6">
-                <div class="h4">{{ site.t.testimonials }}</div>
-                <h2>{{ site.t.meaningful_work_has_future }}</h2>
-            </div>
-            <div class="testimonial col pt-md-2">
-                <blockquote>"{{ site.t.testimonial }}"</blockquote>
-                <div class="testimonial-bio">
-                    <img src="/assets/testimonial.png" alt="{{ site.t.testimonial_author }}" />
-                    <div class="testimonial-author">
-                        <div class="testimonial-author__name">{{ site.t.testimonial_author }}</div>
-                        <div class="testimonial-author__title h5">{{ site.t.testimonial_title }}</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="certification" class="page-section section-certification">
-        <div class="container container--wide">
+            <img class="dots" src="/assets/dots.png" alt="dots" aria-hidden="true" />  
+        </section>
+        <section class="page-section section-data">
             <div class="row">
                 <div class="col col-img">
-                    <img src="/assets/hand-phone.png" alt="Care Campus mobile app" />
+                    <div class="img">
+                    <img src="/assets/deep-learning.jpg" alt="a doctor examines a spot on a patient's back" data-scroll-zoom />
+                    </div>
                 </div>
                 <div class="col col-desc">
-                    <h2>{{ site.t.certification }}</h2>
-                    {{ site.t.certification_content }}
+                    <div class="data-point">
+                        <div class="data-point__title">
+                            <img class="data-point__img" src="/assets/alert-badge.svg" alt="Alert" aria-hidden="true" />
+                            <h4>Skin cancers are among the most frequent ones</h4>
+                        </div>
+                        <p>Currently, between 2 and 3 million non-melanoma skin cancers and 132,000 melanoma skin cancers occur globally each year. One in every three cancers diagnosed is a skin cancer and, according to Skin Cancer Foundation Statistics, one in every five Americans will develop skin cancer in their lifetime.</p>
+                    </div>
+                    <div class="data-point">
+                        <div class="data-point__title">
+                            <img class="data-point__img" src="/assets/bio-badge.svg" alt="Biohazard" aria-hidden="true" />
+                            <h4>An issue of growing importance</h4>
+                        </div>
+                        <p>Longer living, lifestyle choice favoring sun exposure and depletion of the protective ozone layer are leading to a rapid increase in skin cancer.
+        With a growing segment of the population aged 60 and above and depleting ozone layers, the number of Melanoma cases is projected by The WHO to increase by +30% by 2030</p>
+                    </div>
+                    <div class="data-point">
+                        <div class="data-point__title">
+                            <img class="data-point__img" src="/assets/stethoscope-badge.svg" alt="Stethoscope" aria-hidden="true" />
+                            <h4>Significant unmet medical need</h4>
+                        </div>
+                        <p>This causes precious resources - time and money - to be under utilized and cases the need for a more effective methodology for detecting skin cancer. Today, about 30 biopsies are performed to detect one melanoma.</p>
+                    </div>
+                </div>
+                <img class="dots" src="/assets/dots.png" alt="dots" aria-hidden="true" />
+            </div>
+        </section>
+        <section class="page-section section-technology">
+            <div class="section-title">
+                <h2 class="h5">How the Technology Works</h2>
+                <h3 class="h2">Skin Cancer Diagnosis by Dual Deep Learning Technology</h3>
+            </div>
+            <div class="video-container">
+                <img src="/assets/technology-video-poster.jpg" alt="a hand isolating a cancerous mole" />
+            </div>
+            <img class="dots" src="/assets/dots.png" alt="dots" aria-hidden="true" />  
+        </section>
+        <section class="page-section section-clients">
+            <h2 class="h5">Clients</h2>
+            <h3 class="h2">Bostel is Used By</h3>
+            <div class="feature-blocks">
+                <div class="feature-block">
+                    <img class="feature-block__img" src="/assets/hospitals.svg" alt="Hospital" aria-hidden="true" />
+                    <h4 class="feature-block__title">Hospitals, clinics and medical centers</h4>
+                </div>
+                <div class="feature-block">
+                    <img class="feature-block__img" src="/assets/calendar.svg" alt="Hospital" aria-hidden="true" />
+                    <h4 class="feature-block__title">Pharmacies and point of care locations</h4>
+                </div>
+                <div class="feature-block">
+                    <img class="feature-block__img" src="/assets/calendar.svg" alt="Healthcare Professional" aria-hidden="true" />
+                    <h4 class="feature-block__title">Healthcare professionals</h4>
+                </div>
+                <div class="feature-block">
+                    <img class="feature-block__img" src="/assets/nurse.svg" alt="Payers" aria-hidden="true" />
+                    <h4 class="feature-block__title">Payers and healthcare insurers</h4>
+                </div>
+                <img class="dots" src="/assets/dots.png" alt="dots" aria-hidden="true" />  
+            </div>
+        </section>
+        <section class="page-section section-experts">
+            <div class="row">
+                <div class="col col-img">
+                    <div class="img">
+                        <img src="/assets/pioneered-home.jpg" alt="a doctor" data-scroll-zoom />
+                    </div>
+                </div>
+                <div class="col col-desc">
+                    <h2 class="h5">Team of Experts</h2>
+                    <h3 class="h2">Pioneered by leading authorities</h3>
+                    <p>We have leveraged signification and artificial intelligence to create a new diagnostic paradigm with clinically-proven sensitivity and specificity.  This patent protected platform empowers healthcare professionals to efficiently and effectively diagnose melanoma lesions using dermoscopy so they can focus on improving outcomes and helping their patients.</p>
+                    <a href="/contact" class="btn btn--lg">Contact Us</a>
                 </div>
             </div>
-        </div>
-    </section>
-    {% include get-started.html %} -->
+        </section>
+    </div>
 </article>

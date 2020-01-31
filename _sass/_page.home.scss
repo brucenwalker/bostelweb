@@ -18,16 +18,42 @@
         }
     }
 
+    .page-content {
+        padding-bottom: 4rem;
+        overflow-y: hidden;
+    }
+
+    .col-img {
+        .img {
+            overflow: hidden;
+            margin-bottom: 2rem;
+            width: 100%;
+            padding-bottom: 100%;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0%;
+                left: 0;
+                transform-origin: top left;
+            }
+        }
+    }
+
     .section-deep-learning {
         padding-bottom: 0;
+
+        .dots {
+            top: -3rem;
+            right: 0rem;
+            transform: translateX(100%);
+        }
     }
 
     .section-data {
         .col-img {
             .img {
-                overflow: hidden;
                 border-radius: 6rem 0.5rem 0.5rem 0.5rem;
-                margin-bottom: 2rem;
             }
         }
 
@@ -49,6 +75,12 @@
                 margin-right: 1rem;
             }
         }
+
+        .dots {
+            bottom: 0;
+            left: 6.25rem;
+            transform: translateY(-50%);
+        }
     }
 
     .section-technology {
@@ -56,6 +88,12 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+
+        .dots {
+            bottom: 0;
+            right: 0;
+            transform: translate(40%, 5%);
+        }
     }
 
     .section-clients {
@@ -63,6 +101,12 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+
+        .dots {
+            bottom: 0;
+            left: 0;
+            transform: translate(-60%, -20%);
+        }
     }
 
     .section-experts {
@@ -82,20 +126,24 @@
                 border-radius: 0.5rem 6rem 0.5rem 0.5rem;
             }
         }
+
+        .btn {
+            font-size: 1rem;
+            padding: 0 2.5rem;
+            min-width: 11.5625rem;
+        }
     }
 
     .feature-blocks {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-    }
+        position: relative;
 
-    .feature-blocks {
         .feature-block {
             width: calc(50% - 1.25rem);
             margin: 0 0.625rem 1.25rem 0.625rem;
         }
-        
     }
 }
 
@@ -114,6 +162,10 @@
                 border-radius: 0;
                 width: calc(100% + 2.5rem);
             }
+        }
+
+        .section-experts {
+            text-align: center;
         }
     }
 }
@@ -141,10 +193,16 @@
             }
         }
 
+        .section-experts {
+            .col-desc {
+                padding-top: 4rem;
+            }
+        }
+
         .feature-blocks {
             .feature-block {
-                width: calc(17.5rem - 1.25rem);
-                margin: 0 0.625rem;
+                width: calc(18.25rem - 1.25rem);
+                margin: 0 0.625rem 1.25rem 0.625rem;
             }
             
         }
@@ -207,4 +265,11 @@
         width: 100%;
         transform: translateY(-50%);
     }
+}
+
+.dots {
+    flex: none;
+    position: absolute;
+    z-index: -1;
+    width: 12.5rem;
 }

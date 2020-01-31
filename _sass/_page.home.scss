@@ -150,10 +150,11 @@
         flex-wrap: wrap;
         justify-content: center;
         position: relative;
+        margin: 0 - 0.625rem;
 
         .feature-block {
-            width: calc(50% - 1.25rem);
-            margin: 0 0.625rem 1.25rem 0.625rem;
+            width: calc(50% - 0.625rem);
+            margin: 0 0.3125rem 1.25rem 0.3125rem;
         }
     }
 }
@@ -167,11 +168,36 @@
                 padding-right: 0;
             }
         }
+
+        .section-deep-learning {
+            .dots {
+                display: none;
+            }
+        }
+
+        .section-data {
+            .dots {
+                display: none;
+            }
+        }
+
+        .section-clients {
+            .dots {
+                width: 100px;
+                bottom: 0;
+                left: 0;
+                transform: translate(-10%, 0%);
+            }
+        }
         
         .section-technology {
             .video-container {
                 border-radius: 0;
                 width: calc(100% + 2.5rem);
+            }
+
+            .dots {
+                display: none;
             }
         }
 

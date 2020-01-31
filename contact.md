@@ -15,7 +15,35 @@ slug: contact
         <h2 class="h1 page-title">{{ site.t.contact_bostel }}</h2>
     </div>
 </div>
-<article class="page-content">     
+<article class="page-content">    
+    <section class="page-section">
+        <div class="container">
+            <div class="row">
+            <div class="contact-info col">
+                <div class="contact-block">
+                    <h4 class="contact-block-title">Office</h4>
+                    <p>
+                        808 Bostel Parkway, Suite 856<br />
+                        Boston, Massachusetts
+                    </p>
+                    <ul class="contact-list">
+                        <li><img src="/assets/phone.svg" /><a href="tel:1.919.245.7111">+ 1.919.245.7111</a></li>
+                        <li><img src="/assets/letter.svg" /><a href="mailto:contact@bosteltech.com">contact@bosteltech.com</a></li>
+                    </ul>
+                </div>
+                <div class="contact-block">
+                    <h4 class="contact-block-title">Press</h4>
+                    <p>If you’re interested in speaking with us in regards to any media, contact:</p>
+                    <ul class="contact-list">
+                        <li><img src="/assets/letter.svg" /><a href="media@bosteltech.com">media@bosteltech.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-form panel col">
+            </div>
+            </div>
+        </div>
+    </section> 
     <!-- <section class="page-section">
         <div class="container">
             {{ site.t.contact_content }}

@@ -18,21 +18,23 @@ slug: publications
 <article class="page-content">  
     <div class="container">
         <section class="page-section">
-            <div class="publications">
-                <div class="publication">
-                    <a href="/dermoscopy-diagnosis-cancerous-lesions"><img class="publication-img" src="assets/dermoscopy.jpg" alt="a microscopic image of cancer cells" /></a>
-                    <h2 class="h4">Dermoscopy diagnosis of cancerous lesions utilizing dual deep learning algorithms via visual and audio (sonification) outputs: Laboratory and prospective observational studies</h2>
-                    <div class="publication-footer">
-                        <a href="/dermoscopy-diagnosis-cancerous-lesions">Read More</a>
-                        <a class="btn btn--icon btn--icon-light pdf-btn" href="#" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
+            <div class="panel">
+                <div class="publications">
+                    <div class="publication">
+                        <a href="/dermoscopy-diagnosis-cancerous-lesions"><img class="publication-img" src="assets/dermoscopy.jpg" alt="a microscopic image of cancer cells" /></a>
+                        <h2 class="h4">Dermoscopy diagnosis of cancerous lesions utilizing dual deep learning algorithms via visual and audio (sonification) outputs: Laboratory and prospective observational studies</h2>
+                        <div class="publication-footer">
+                            <a href="/dermoscopy-diagnosis-cancerous-lesions">Read More</a>
+                            <a class="btn btn--icon btn--icon-light pdf-btn" href="#" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
+                        </div>
                     </div>
-                </div>
-                <div class="publication">
-                    <a href="/skin-cancer-detection-deep-learning-sound-analysis-algorithms"><img class="publication-img" src="/assets/skin-cancer.jpg" alt="topical skin cancer lesions" /></a>
-                    <h2 class="h4">Skin cancer detection by deep learning and sound analysis algorithms: A prospective clinical study of an elementary dermoscope</h2>
-                    <div class="publication-footer">
-                        <a href="/skin-cancer-detection-deep-learning-sound-analysis-algorithms">Read More</a>
-                        <a class="btn btn--icon btn--icon-light pdf-btn" href="#" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
+                    <div class="publication">
+                        <a href="/skin-cancer-detection-deep-learning-sound-analysis-algorithms"><img class="publication-img" src="/assets/skin-cancer.jpg" alt="topical skin cancer lesions" /></a>
+                        <h2 class="h4">Skin cancer detection by deep learning and sound analysis algorithms: A prospective clinical study of an elementary dermoscope</h2>
+                        <div class="publication-footer">
+                            <a href="/skin-cancer-detection-deep-learning-sound-analysis-algorithms">Read More</a>
+                            <a class="btn btn--icon btn--icon-light pdf-btn" href="#" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
+                        </div>
                     </div>
                 </div>
             </div>

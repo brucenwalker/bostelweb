@@ -8,7 +8,75 @@
         }
     }
 
+    .contact-info {
+        
+    }
+
+    .contact-block {
+        margin-bottom: 2rem;
+
+        &-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .contact-list {
+        list-style: none;
+        margin: 0 0 1rem 0;
+        
+        li {
+            display: flex;
+            align-items: center;
+            padding: 0;
+            margin-bottom: 0.75rem;
+
+            img,
+            svg {
+                margin-right: 1rem;
+            }
+        }
+
+        a {
+            color: $midnight;
+        }
+    }
+
+    .contact-form {
+        box-shadow: $box-shadow-lg;
+    }
+
     .footer-top {
         display: none;
+    }
+}
+
+@media (min-width: $md-breakpoint) {
+    .page-contact {
+        .contact-info {
+            padding-right: 8rem;
+        }
+        .contact-form {
+            margin-top: -3.75rem;
+            margin-top: -10rem;
+            width: 66.666%;
+        }
+    }
+}
+
+.panel {
+    background: $white;
+    border-radius: 0.625rem;
+    box-shadow: $box-shadow;
+    padding: 2rem;
+}
+
+@media (min-width: $md-breakpoint) {
+    .panel {
+        padding: 6.25rem;
     }
 }

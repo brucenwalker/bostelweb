@@ -22,8 +22,8 @@ slug: team
         {% for team_member in ordered_team_members %}
             {% assign id = team_member.first_name | replace: ' ', '-' | replace: '.', '' | downcase %}
             <div class="team-member row">
-                <div class="team-member-img col">
-                    <img class="" />
+                <div class="team-member-img col" style="background-image: url('/assets/{{ team_member.img }}');">
+                    <!-- <img src="/assets/{{ team_member.img }}" /> -->
                 </div>
                 <div class="team-member-bio col">
                     <div class="team-member-title">

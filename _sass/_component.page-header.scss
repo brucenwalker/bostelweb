@@ -6,6 +6,9 @@
     align-items: flex-start;
     justify-content: center;
     position: relative;
+    margin-top: 3.125rem;
+    min-height: 18.75rem;
+    padding: 2rem 0;
 
     &:after {
         content: '';

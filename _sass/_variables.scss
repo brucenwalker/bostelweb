@@ -57,6 +57,9 @@ $dark: $midnight;
 $medium: #04131c;
 $error: rgb(250,20,70);
 
+$box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
+$box-shadow-lg: 0 90px 115px -25px rgba(0,0,0,0.15);
+
 $xs-breakpoint: 30em; /* 420px */
 $sm-breakpoint: 48em; /* 768px */
 //$md-breakpoint: 64em; /* 1024px */

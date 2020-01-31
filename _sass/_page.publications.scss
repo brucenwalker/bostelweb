@@ -1,7 +1,12 @@
 .page-publications {
     .page-header {
+        background: rgba($navy, 0.8);
+
         &:after {
-            background: url('../assets/home-hero.jpg') $midnight;
+            background: url('../assets/publications-hero.jpg') $midnight;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
         }
     }
 
@@ -11,10 +16,7 @@
 
     .page-section {
         margin: -3.75rem 0 6rem 0;
-        padding: 2rem;
-        border-radius: 0.625rem;
-        background: $white;
-        box-shadow: 0 90px 115px -25px rgba(0,0,0,0.15);
+        padding-top: 0;
     }
 
     .publication {
@@ -43,9 +45,9 @@
             padding: 16rem 0;
         }
 
-        .page-section {
-            padding: 6.25rem;
-        }
+        // .page-section {
+        //     padding: 6.25rem;
+        // }
 
         .publications {
             display: flex;

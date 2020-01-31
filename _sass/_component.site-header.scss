@@ -19,6 +19,7 @@
 .site-logo {
     width: 110px;
     display: block;
+    flex: 1;
 }
 
 .site-nav {
@@ -41,26 +42,4 @@
         margin-left: auto;
         display: block;
     }
-
-    // body.lang-fr {
-    //     .site-logo {
-    //         margin-left: 180px;
-    //     }
-    // }
-
-    // body.lang-fr {
-    //     .site-nav {
-    //         margin-left: 170px;
-    //     }
-    // }
-    
-    // .site-header {
-    //     .demo-btn {
-    //         display: inherit;
-    //     }
-    // }
-
-    // .site-header__content {
-    //     flex-direction: row-reverse;
-    // }
 }

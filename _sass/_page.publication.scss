@@ -10,6 +10,13 @@
 }
 
 @media (min-width: $md-breakpoint) {
+    .page-publication {
+        .page-header {
+            &__content {
+                margin-top: 0;
+            }
+        }
+    }
 }
 
 .news-item {

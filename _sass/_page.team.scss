@@ -5,7 +5,6 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-position: 25% center;
-            top: 50px;
         }
     }
 
@@ -30,7 +29,6 @@
     .page-team {
         .page-header {
             &:after {
-                top: 100px;
                 background-position: center center;
             }
         }

@@ -40,6 +40,10 @@ slug: contact
                 </div>
             </div>
             <div class="contact-form panel col">
+                <div class="cognito">
+                <script src="https://services.cognitoforms.com/s/Cjz17qsv6kObIxeHdCT2bA"></script>
+                <script>Cognito.load("forms", { id: "11" });</script>
+                </div>
             </div>
             </div>
         </div>

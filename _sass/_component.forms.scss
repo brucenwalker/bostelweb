@@ -4,7 +4,7 @@
 }
 .cognito .c-forms-form .c-forms-form-title h2,
 .cognito .c-forms-form :not(.c-question) > .c-label {
-    color: #575c61 !important;
+    color: $gray-light !important;
 }
 
 .cognito form + div {
@@ -16,8 +16,9 @@
 .cognito .c-forms-form .c-forms-form-title h2,
 .cognito .c-forms-form :not(.c-question) > .c-label {
     font-family: 'CircularStd-Book', sans-serif !important;
+    font-weight: 400 !important;
     font-size: 1rem !important;
-    color: $gray-dark !important;
+    color: $gray-light !important;
     
 }
 .cognito .c-forms-form :not(.c-question) > .c-label {
@@ -29,13 +30,32 @@
 .cognito input[type=checkbox] {
     display: inline-block;
 }
+
+.cognito .c-button-section {
+    margin-top: 3rem;
+    text-align: center;
+
+    button {
+        margin: 0 auto;
+    }
+}
+
+.cognito .c-action,
+.cognito #c-submit-button {
+    float: none;
+    display: inline-block;
+}
+
 .cognito .c-forms-form .c-button-section button:not(.c-icon-button),
 .cognito .c-forms-form button:not(.c-icon-button) {
-    min-width: 250px !important;
+    min-width: 180px !important;
     @extend .btn;
+    @extend .btn--lg;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 
     &:hover {
-        background: darken($primary, 10);
+        background: darken($primary, 5);
     }
 }
 .cognito .c-forms-form .c-fileupload-dropzone .c-upload-button button {
@@ -49,4 +69,14 @@
     font-weight: 500;
     padding: .1875rem 1.25rem;
     transition: background-color .2s, color .2s;
+}
+
+.cognito input[type=text], .cognito input[type=password], .cognito input[type=email], .cognito input[type=tel], .cognito input[type=url], .cognito select, .cognito textarea, .c-payment .c-payment-field {
+    border-color: rgba(#666666, 0.15) !important;
+}
+
+.page-contact .cognito .c-forms-form .c-validation {
+    background: none !important;
+    color: $error !important;
+    padding: 0.5rem 0 0 0;
 }

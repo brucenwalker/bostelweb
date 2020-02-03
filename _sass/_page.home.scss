@@ -157,6 +157,18 @@
             margin: 0 0.3125rem 1.25rem 0.3125rem;
         }
     }
+
+    .play-btn {
+        padding: 0 0.625rem 0 1.125rem;
+        justify-content: flex-end;
+        min-width: 0;
+
+        .btn__icon {
+            margin-left: 0.625rem;
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+    }
 }
 
 @media (max-width: $md-breakpoint-max) {
@@ -247,13 +259,22 @@
         .col-desc {
             padding-left: calc(8.333% + 0.625rem);
         }
+
+        .play-btn {
+            padding: 0 0.625rem 0 2.1875rem;
+            
+            .btn__icon {
+                width: 2.25rem;
+                height: 2.25rem;
+            }
+        }
     }
 }
 
 .feature-block {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     box-shadow: $box-shadow-lg;
     border-radius: $border-radius-lg;

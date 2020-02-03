@@ -12,7 +12,7 @@ description:
         <div class="page-header__content">
             <h1 class="h5 page-label">A NEW FRONTIER</h1>
             <h2 class="h1 page-title">{{ site.t.diagnosing_skin_cancer_melody }}</h2>
-            <a href="#" class="btn btn--lg">{{ site.t.learn_more }}</a>
+            <a href="#" class="play-btn btn btn--lg"><span>{{ site.t.learn_more }}</span> <img class="btn__icon" src="/assets/play-button.svg" alt="play icon" aria-hidden="true" /></a>
         </div>
     </div>
 </div>
@@ -81,7 +81,7 @@ description:
                     <h4 class="feature-block__title">Hospitals, clinics and medical centers</h4>
                 </div>
                 <div class="feature-block">
-                    <img class="feature-block__img" src="/assets/calendar.svg" alt="Hospital" aria-hidden="true" />
+                    <img class="feature-block__img" src="/assets/pharmacies.svg" alt="Hospital" aria-hidden="true" />
                     <h4 class="feature-block__title">Pharmacies and point of care locations</h4>
                 </div>
                 <div class="feature-block">

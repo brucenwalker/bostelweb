@@ -28,14 +28,14 @@ slug: contact
                     </p>
                     <ul class="contact-list">
                         <li><img src="/assets/phone.svg" /><a href="tel:1.919.245.7111">+ 1.919.245.7111</a></li>
-                        <li><img src="/assets/letter.svg" /><a href="mailto:contact@bosteltech.com">contact@bosteltech.com</a></li>
+                        <li><img src="/assets/letter.svg" /><a href="mailto:info@bosteltechnologies.com">info@bosteltechnologies.com</a></li>
                     </ul>
                 </div>
                 <div class="contact-block">
                     <h4 class="contact-block-title">Press</h4>
                     <p>If you’re interested in speaking with us in regards to any media, contact:</p>
                     <ul class="contact-list">
-                        <li><img src="/assets/letter.svg" /><a href="media@bosteltech.com">media@bosteltech.com</a></li>
+                        <li><img src="/assets/letter.svg" /><a href="info@bosteltechnologies.com">info@bosteltechnologies.com</a></li>
                     </ul>
                 </div>
             </div>

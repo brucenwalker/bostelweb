@@ -12,9 +12,10 @@ description:
         <div class="page-header__content">
             <h1 class="h5 page-label">A NEW FRONTIER</h1>
             <h2 class="h1 page-title">{{ site.t.diagnosing_skin_cancer_melody }}</h2>
-            <a href="#" class="play-btn btn btn--lg"><span>{{ site.t.learn_more }}</span> <img class="btn__icon" src="/assets/play-button.svg" alt="play icon" aria-hidden="true" /></a>
+            {% comment %}<a href="#" class="play-btn btn btn--lg"><span>{{ site.t.learn_more }}</span> <img class="btn__icon" src="/assets/play-button.svg" alt="play icon" aria-hidden="true" /></a>{% endcomment %}
         </div>
     </div>
+    <div class="hero-img" data-scroll-zoom></div>
 </div>
 <article class="page-content">   
     <div class="container">
@@ -32,7 +33,7 @@ description:
             <div class="row">
                 <div class="col col-img">
                     <div class="img">
-                    <img src="/assets/deep-learning.jpg" alt="a doctor examines a spot on a patient's back" data-scroll-zoom />
+                    <img src="/assets/deep-learning.jpg" alt="a doctor examines a spot on a patient's back" />
                     </div>
                 </div>
                 <div class="col col-desc">
@@ -41,7 +42,7 @@ description:
                             <img class="data-point__img" src="/assets/alert-badge.svg" alt="Alert" aria-hidden="true" />
                             <h4>Skin cancers are among the most frequent ones</h4>
                         </div>
-                        <p>Currently, between 2 and 3 million non-melanoma skin cancers and 132,000 melanoma skin cancers occur globally each year. One in every three cancers diagnosed is a skin cancer and, according to Skin Cancer Foundation Statistics, one in every five Americans will develop skin cancer in their lifetime.</p>
+                        <p>About 1 million non-melanoma skin cancers and 288,000 malignant melanoma (MM) cancers occurred globally in 2018. One in every three cancers diagnosed is a skin cancer and, according to Skin Cancer Foundation Statistics, one in every five Americans will develop skin cancer in their lifetime.</p>
                     </div>
                     <div class="data-point">
                         <div class="data-point__title">
@@ -99,7 +100,7 @@ description:
             <div class="row">
                 <div class="col col-img">
                     <div class="img">
-                        <img src="/assets/pioneered-home.jpg" alt="a doctor" data-scroll-zoom />
+                        <img src="/assets/pioneered-home.jpg" alt="a doctor" />
                     </div>
                 </div>
                 <div class="col col-desc">

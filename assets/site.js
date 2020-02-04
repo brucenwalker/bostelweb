@@ -149,7 +149,7 @@ if (window.NodeList && !NodeList.prototype.forEach) {
 }
 
 // Higher number = more zoom
-let scaleAmount = 0.25;
+let scaleAmount = 0.2;
 
 function scrollZoom() {
   const images = document.querySelectorAll("[data-scroll-zoom]");

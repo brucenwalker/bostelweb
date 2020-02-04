@@ -27,7 +27,7 @@ slug: news
             <h3>About Bostel Technologies</h3>                                                                                                                            
             <p>Bostel Technologies LLC is a privately-held, Boston-headquartered medical technology company that has created a patented diagnostic platform called Melody™ that uses Dual Deep Learning technology to improve the clinical diagnoses of melanoma by applying an additional sonification (data to sound waves conversion) layer on deep learning algorithms.</p>
             <p>For more information please visit <a href="https://www.BostelTechnologies.com">https://www.BostelTechnologies.com</a>.</p>
-            <p>Contact:  <strong>Harry Keegan</strong>, CEO: XXXX</p>
+            <p>Contact:  <strong>Harry Keegan</strong>, CEO: <a href="mailto:hkeegan@bosteltechnologies.com">hkeegan@bosteltechnologies.com</a></p>
         </div>
     {% endfor %}
     </div>

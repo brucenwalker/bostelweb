@@ -24,7 +24,7 @@ description:
                 <div class="col">
                     <h2 class="h5">A New Frontier</h2>
                     <h3 class="h2">Deep Learning Diagnostic for Skin Malignancy</h3>
-                    <p>Bostel Technologies is a clinical-stage healthcare company that has developed Melody, a patented unique Dual Deep Learning technology in order to facilitate the diagnosis of skin cancer by dermoscopy.</p>
+                    <p>Bostel Technologies is a clinical-stage healthcare company that has developed Melody, a patent-pending unique Dual Deep Learning technology in order to facilitate the diagnosis of skin cancer by dermoscopy.</p>
                 </div>
             </div>
             <img class="dots" src="/assets/dots.png" alt="dots" aria-hidden="true" />  
@@ -40,7 +40,7 @@ description:
                     <div class="data-point">
                         <div class="data-point__title">
                             <img class="data-point__img" src="/assets/alert-badge.svg" alt="Alert" aria-hidden="true" />
-                            <h4>Skin cancers are among the most frequent ones</h4>
+                            <h4>Skin cancers are the most frequent</h4>
                         </div>
                         <p>About 1 million non-melanoma skin cancers and 288,000 malignant melanoma (MM) cancers occurred globally in 2018. One in every three cancers diagnosed is a skin cancer and, according to Skin Cancer Foundation Statistics, one in every five Americans will develop skin cancer in their lifetime.</p>
                     </div>
@@ -50,14 +50,14 @@ description:
                             <h4>An issue of growing importance</h4>
                         </div>
                         <p>Longer living, lifestyle choice favoring sun exposure and depletion of the protective ozone layer are leading to a rapid increase in skin cancer.
-        With a growing segment of the population aged 60 and above and depleting ozone layers, the number of Melanoma cases is projected by The WHO to increase by +30% by 2030</p>
+        With a growing segment of the population aged 60 and above and thinning ozone layers, the number of Melanoma cases is projected by The WHO to increase by +30% by 2030</p>
                     </div>
                     <div class="data-point">
                         <div class="data-point__title">
                             <img class="data-point__img" src="/assets/stethoscope-badge.svg" alt="Stethoscope" aria-hidden="true" />
                             <h4>Significant unmet medical need</h4>
                         </div>
-                        <p>This causes precious resources - time and money - to be under utilized and cases the need for a more effective methodology for detecting skin cancer. Today, about 30 biopsies are performed to detect one melanoma.</p>
+                        <p>Skin cancer diagnosis is burdensome to both patients and health care professionals, resulting in a strong need for a more effective platform for skin cancer detection. Today, about 30 biopsies are performed to detect one melanoma.</p>
                     </div>
                 </div>
                 <img class="dots" src="/assets/dots.png" alt="dots" aria-hidden="true" />
@@ -75,7 +75,7 @@ description:
         </section>
         <section class="page-section section-clients">
             <h2 class="h5">Clients</h2>
-            <h3 class="h2">Bostel is Used By</h3>
+            <h3 class="h2">Bostel is Indended For</h3>
             <div class="feature-blocks">
                 <div class="feature-block">
                     <img class="feature-block__img" src="/assets/hospitals.svg" alt="Hospital" aria-hidden="true" />
@@ -106,7 +106,7 @@ description:
                 <div class="col col-desc">
                     <h2 class="h5">Team of Experts</h2>
                     <h3 class="h2">Pioneered by leading authorities</h3>
-                    <p>We have leveraged signification and artificial intelligence to create a new diagnostic paradigm with clinically-proven sensitivity and specificity.  This patent protected platform empowers healthcare professionals to efficiently and effectively diagnose melanoma lesions using dermoscopy so they can focus on improving outcomes and helping their patients.</p>
+                    <p>We have leveraged sonification and artificial intelligence to create a new diagnostic paradigm with clinically-proven sensitivity and specificity.  This patent-pending platform will empower healthcare professionals to efficiently and effectively diagnose melanoma lesions using dermoscopy so they can focus on improving outcomes and helping their patients.</p>
                     <a href="/contact" class="btn btn--lg">Contact Us</a>
                 </div>
             </div>

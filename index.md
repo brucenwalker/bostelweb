@@ -75,7 +75,7 @@ description:
         </section>
         <section class="page-section section-clients">
             <h2 class="h5">Clients</h2>
-            <h3 class="h2">Bostel is Indended For</h3>
+            <h3 class="h2">Bostel is Intended For</h3>
             <div class="feature-blocks">
                 <div class="feature-block">
                     <img class="feature-block__img" src="/assets/hospitals.svg" alt="Hospital" aria-hidden="true" />
@@ -105,7 +105,7 @@ description:
                 </div>
                 <div class="col col-desc">
                     <h2 class="h5">Team of Experts</h2>
-                    <h3 class="h2">Pioneered by leading authorities</h3>
+                    <h3 class="h2">Pioneered by Leading Authorities</h3>
                     <p>We have leveraged sonification and artificial intelligence to create a new diagnostic paradigm with clinically-proven sensitivity and specificity.  This patent-pending platform will empower healthcare professionals to efficiently and effectively diagnose melanoma lesions using dermoscopy so they can focus on improving outcomes and helping their patients.</p>
                     <a href="/contact" class="btn btn--lg">Contact Us</a>
                 </div>

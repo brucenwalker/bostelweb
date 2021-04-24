@@ -20,22 +20,40 @@ slug: publications
         <section class="page-section">
             <div class="panel">
                 <div class="publications">
+                    
                     <div class="publication">
-                        <a href="/dermoscopy-diagnosis-cancerous-lesions"><img class="publication-img" src="assets/malignant1a.png" alt="an image of a cencerous skin lesion" /></a>
-                        <h2 class="h4">Dermoscopy diagnosis of cancerous lesions utilizing dual deep learning algorithms via visual and audio (sonification) outputs: Laboratory and prospective observational studies</h2>
+                        <a href="/dermoscopy-diagnosis-cancerous-lesions"><img class="publication-img" src="assets/malignant1a.png" alt="an image of a cancerous skin lesion" /></a>
+                        <h4 class="h4">Dermoscopy diagnosis of cancerous lesions utilizing dual deep learning algorithms via visual and audio (sonification) outputs: Laboratory and prospective observational studies</h4>
+                        <p>EBioMEdicine; February 2019, Volume 40, Pages 176–183 <BR>https://doi.org/10.1016/j.ebiom.2019.01.028</p> 
+
                         <div class="publication-footer">
                             <a href="/dermoscopy-diagnosis-cancerous-lesions">Read More</a>
                             <a class="btn btn--icon btn--icon-light pdf-btn" href="/assets/PIIS2352396419300337.PDF" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
                         </div>
                     </div>
+                    
                     <div class="publication">
                         <a href="/skin-cancer-detection-deep-learning-sound-analysis-algorithms"><img class="publication-img" src="/assets/skin-cancer.jpg" alt="topical skin cancer lesions" /></a>
                         <h2 class="h4">Skin cancer detection by deep learning and sound analysis algorithms: A prospective clinical study of an elementary dermoscope</h2>
+                        <p>EBioMEdicine; May 2019, Volume 43, Pages 107–113 <BR>https://doi.org/10.1016/j.ebiom.2019.04.055</p> 
+
                         <div class="publication-footer">
                             <a href="/skin-cancer-detection-deep-learning-sound-analysis-algorithms">Read More</a>
                             <a class="btn btn--icon btn--icon-light pdf-btn" href="/assets/PIIS2352396419302944.pdf" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
                         </div>
                     </div>
+                    
+                    <div class="publication">
+                        <a href="/sonification-for-melanoma-diagnosis"><img class="publication-img" src="assets/malignant1a.png" alt="an image of a cancerous skin lesion" /></a>
+                        <h4 class="h4">Hearing artificial intelligence: Sonification guidelines & results from a case-study in melanoma diagnosis</h4>
+                        <p>International Conference on Auditory Displays (ICAD); June 2019 <br>http://hdl.handle.net/1853/61501</p> 
+
+                        <div class="publication-footer">
+                            <a href="/sonification-for-melanoma-diagnosis">Read More</a>
+                            <a class="btn btn--icon btn--icon-light pdf-btn" href="/assets/icad2019_021.pdf" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>

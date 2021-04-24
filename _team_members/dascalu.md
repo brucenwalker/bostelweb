@@ -3,7 +3,7 @@ order: 20
 id: dascalu
 first_name: Avi
 last_name: Dascalu
-title: Chief Development Officer
+title: Co-Founder and Chief Development Officer
 img: dascalu.jpg
 img_alt:
 linked_in_url: https://www.linkedin.com/in/avi-dascalu-70361a1/

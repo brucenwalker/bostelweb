@@ -22,7 +22,7 @@ slug: publications
                 <div class="publications">
                     
                     <div class="publication">
-                        <a href="/dermoscopy-diagnosis-cancerous-lesions"><img class="publication-img" src="assets/malignant1a.png" alt="an image of a cancerous skin lesion" /></a>
+                        <a href="/dermoscopy-diagnosis-cancerous-lesions"><img class="publication-img" src="assets/eBioMedicine-2019-02-frontpage.png" alt="cover of article" /></a>
                         <h4 class="h4">Dermoscopy diagnosis of cancerous lesions utilizing dual deep learning algorithms via visual and audio (sonification) outputs: Laboratory and prospective observational studies</h4>
                         <p>EBioMEdicine; February 2019, Volume 40, Pages 176–183 <BR>https://doi.org/10.1016/j.ebiom.2019.01.028</p> 
 
@@ -33,7 +33,7 @@ slug: publications
                     </div>
                     
                     <div class="publication">
-                        <a href="/skin-cancer-detection-deep-learning-sound-analysis-algorithms"><img class="publication-img" src="/assets/skin-cancer.jpg" alt="topical skin cancer lesions" /></a>
+                        <a href="/skin-cancer-detection-deep-learning-sound-analysis-algorithms"><img class="publication-img" src="/assets/eBioMedicine-2019-05-frontpage.png" alt="cover of article" /></a>
                         <h2 class="h4">Skin cancer detection by deep learning and sound analysis algorithms: A prospective clinical study of an elementary dermoscope</h2>
                         <p>EBioMEdicine; May 2019, Volume 43, Pages 107–113 <BR>https://doi.org/10.1016/j.ebiom.2019.04.055</p> 
 

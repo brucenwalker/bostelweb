@@ -1,7 +1,7 @@
 ---
 order: 10
 id: walker
-first_name: Bruce
+first_name: Bruce N. 
 last_name: Walker
 title: President
 img: walker.jpg

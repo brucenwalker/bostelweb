@@ -21,7 +21,7 @@ slug: publications
             <div class="panel">
                 <div class="publications">
                     <div class="publication">
-                        <a href="/dermoscopy-diagnosis-cancerous-lesions"><img class="publication-img" src="assets/malignant1a.png" alt="a microscopic image of cancer cells" /></a>
+                        <a href="/dermoscopy-diagnosis-cancerous-lesions"><img class="publication-img" src="assets/malignant1a.png" alt="an image of a cencerous skin lesion" /></a>
                         <h2 class="h4">Dermoscopy diagnosis of cancerous lesions utilizing dual deep learning algorithms via visual and audio (sonification) outputs: Laboratory and prospective observational studies</h2>
                         <div class="publication-footer">
                             <a href="/dermoscopy-diagnosis-cancerous-lesions">Read More</a>

@@ -2,12 +2,12 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-id: sonification-for-melanoma-diagnosis
+id: sonification-for-diagnosis
 layout: default
 title: Hearing artificial intelligence: Sonification guidelines & results from a case-study in melanoma diagnosis and prospective observational studies
 description: 
 date: 2019-06-15
-slug: sonification-for-melanoma-diagnosis
+slug: sonification-for-diagnosis
 ---
 <div class="page-publication">
 <div class="page-header">
@@ -27,7 +27,7 @@ slug: sonification-for-melanoma-diagnosis
         <h3 class="h4">Citation:</h3>
         <p>Proceedings of the 25th International Conference on Auditory Display (ICAD 2019) 23-27 June 2019, Northumbria University, Newcastle upon Tyne, UK.</p>
         <h3 class="h4">Link:</h3>
-        <a href="https://smartech.gatech.edu/bitstream/handle/1853/61501/icad2019_021.pdf?sequence=1&isAllowed=y">https://smartech.gatech.edu/bitstream/handle/1853/61501/icad2019_021.pdf</a>
+        <p><a href="https://smartech.gatech.edu/bitstream/handle/1853/61501/icad2019_021.pdf?sequence=1&isAllowed=y">https://smartech.gatech.edu/bitstream/handle/1853/61501/icad2019_021.pdf</a></p>
     </div>
 </article>
 </div>

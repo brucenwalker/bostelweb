@@ -23,11 +23,12 @@ slug: contact
                 <div class="contact-block">
                     <h4 class="contact-block-title">Office</h4>
                     <p>
-                        808 Bostel Parkway, Suite 856<br />
-                        Boston, Massachusetts
+                        P.O. Box 244237<br />
+                        Atlanta, Georgia  30324<br />
+                        USA
                     </p>
                     <ul class="contact-list">
-                        <li><img src="/assets/phone.svg" /><a href="tel:1.919.245.7111">+ 1.919.245.7111</a></li>
+                        <li><img src="/assets/phone.svg" /><a href="tel:1.470.315.0663">+ 1.470.315.0663</a></li>
                         <li><img src="/assets/letter.svg" /><a href="mailto:info@bosteltechnologies.com">info@bosteltechnologies.com</a></li>
                     </ul>
                 </div>

@@ -23,6 +23,8 @@ slug: publications
                     <div class="publication">
                         <a href="/dermoscopy-diagnosis-cancerous-lesions"><img class="publication-img" src="assets/malignant1a.png" alt="an image of a cencerous skin lesion" /></a>
                         <h2 class="h4">Dermoscopy diagnosis of cancerous lesions utilizing dual deep learning algorithms via visual and audio (sonification) outputs: Laboratory and prospective observational studies</h2>
+                        <h3 class="h3">EBioMEdicine; February 2019, Volume 40, Pages 176–183 https://doi.org/10.1016/j.ebiom.2019.01.028</h3> 
+
                         <div class="publication-footer">
                             <a href="/dermoscopy-diagnosis-cancerous-lesions">Read More</a>
                             <a class="btn btn--icon btn--icon-light pdf-btn" href="/assets/PIIS2352396419300337.PDF" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>

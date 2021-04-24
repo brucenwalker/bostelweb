@@ -44,7 +44,7 @@ slug: publications
                     </div>
                     
                     <div class="publication">
-                        <a href="/"><img class="publication-img" src="assets/malignant1a.png" alt="an image of a cancerous skin lesion" /></a>
+                        <a href="/sonification-for-melanoma-diagnosis"><img class="publication-img" src="assets/malignant1a.png" alt="an image of a cancerous skin lesion" /></a>
                         <h4 class="h4">Hearing artificial intelligence: Sonification guidelines & results from a case-study in melanoma diagnosis</h4>
                         <p>International Conference on Auditory Displays (ICAD); June 2019 <br>http://hdl.handle.net/1853/61501</p> 
 

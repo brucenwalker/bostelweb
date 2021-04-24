@@ -2,12 +2,12 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-id: sonification-for-melanoma-diagnosis
+id: sonification-for-diagnosis
 layout: default
 title: Hearing artificial intelligence: Sonification guidelines & results from a case-study in melanoma diagnosis and prospective observational studies
 description: 
 date: 2019-06-15
-slug: sonification-for-melanoma-diagnosis
+slug: sonification-for-diagnosis
 ---
 <div class="page-publication">
 <div class="page-header">

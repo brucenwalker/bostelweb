@@ -7,7 +7,7 @@ layout: default
 title: >
        Hearing artificial intelligence: Sonification guidelines & results from a case-study in melanoma diagnosis and prospective observational studies
 description: 
-date: 2019-06-15
+date: 2019-06-24
 slug: sonification-for-melanoma-diagnosis
 ---
 <div class="page-publication">

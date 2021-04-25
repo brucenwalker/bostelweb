@@ -33,7 +33,7 @@ description:
             <div class="row">
                 <div class="col col-img">
                     <div class="img">
-                    <img src="/assets/deep-learning.jpg" alt="a doctor examines a spot on a patient's back" />
+                    <img src="/assets/dermoscope-in-use2.png" alt="a doctor examines skin using a modern dermoscope" />
                     </div>
                 </div>
                 <div class="col col-desc">

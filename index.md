@@ -33,7 +33,7 @@ description:
             <div class="row">
                 <div class="col col-img">
                     <div class="img">
-                    <img src="/assets/dermoscope-in-use.png" alt="a doctor examines skin using a modern dermoscope" />
+                    <img src="/assets/dermoscope-in-use2.png" alt="a doctor examines skin using a modern dermoscope" />
                     </div>
                 </div>
                 <div class="col col-desc">

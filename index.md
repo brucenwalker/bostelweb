@@ -33,7 +33,7 @@ description:
             <div class="row">
                 <div class="col col-img">
                     <div class="img">
-                    <img src="/assets/dermoscope-in-use2.png" alt="a doctor examines skin using a modern dermoscope" />
+                    <img src="/assets/dermoscope-in-use3.png" alt="a doctor examines skin using a modern dermoscope" />
                     </div>
                 </div>
                 <div class="col col-desc">
@@ -69,7 +69,7 @@ description:
                 <h3 class="h2">Skin Cancer Diagnosis by Dual Deep Learning Technology</h3>
             </div>
             <div class="video-container">
-                <img src="/assets/technology-video-poster.jpg" alt="a hand isolating a cancerous mole" />
+                <img src="/assets/Schematic-for-website3.png" alt="schematic of Bostel technology process showing flow from dermoscope to machine learning system back to app" />
             </div>
             <img class="dots" src="/assets/dots.png" alt="dots" aria-hidden="true" />  
         </section>

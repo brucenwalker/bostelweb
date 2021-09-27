@@ -42,7 +42,7 @@ slug: publications
                             <a class="btn btn--icon btn--icon-light pdf-btn" href="/assets/PIIS2352396419302944.pdf" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
                         </div>
                     </div>
- 
+               <BR>     
                     <div class="publication">
                         <a href="/sonification-for-melanoma-diagnosis"><img class="publication-img" src="assets/ICAD-2019-06-frontpage.png" width="435" alt="cover of article"/></a>
                         <h4 class="h4">Hearing artificial intelligence: Sonification guidelines & results from a case-study in melanoma diagnosis</h4>

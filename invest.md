@@ -37,7 +37,7 @@ slug: invest
                     </p>
                     <p>
                      <b>Important Legal Disclosures </b><br />
-                    We are 'testing the waters' to gauge investor interest in an offering under Regulation Crowdfunding. No money or other consideration is being solicited. If sent, it will not be accepted. No offer to buy securities will be accepted. No part of the purchase price will be received until a Form C is filed and only through Wefunder’s platform. Any indication of interest involves no obligation or commitment of any kind.
+                    <i>We are 'testing the waters' to gauge investor interest in an offering under Regulation Crowdfunding. No money or other consideration is being solicited. If sent, it will not be accepted. No offer to buy securities will be accepted. No part of the purchase price will be received until a Form C is filed and only through Wefunder’s platform. Any indication of interest involves no obligation or commitment of any kind.</i>
                     </p>
                 </div>
             </div>
@@ -45,38 +45,5 @@ slug: invest
         </div>
     </section> 
     
-    <!-- <section class="page-section">
-        <div class="container">
-            {{ site.t.contact_content }}
-            <div class="cognito">
-                <div class="cognito">
-                    <script src="https://services.cognitoforms.com/s/Fi2AQefBoUefuZmI70NHAQ"></script>
-                    <script>Cognito.load("forms", { id: "1" });</script>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="page-section section-get-started">
-        <div class="container">
-            <div class="row md-reverse">
-                <div class="arch"></div>
-                <div class="col col-img">
-                    <img class="img" src="/assets/footer-image.png" />
-                </div>
-                <div class="page-section__content col txt-md-center">
-                    <div class="mb-2">
-                        <h2 class="section-title mb2 text--white">{{ site.t.ready_to_get_started }}</h2>
-                        <a class="btn btn--lg btn--light" href="#">{{ site.t.kickstart_your_future }}</a>
-                    </div>
-                    <div>
-                        <img class="footer-logo" src="/assets/logo.svg" alt="{{ site.t.oenologic }}">
-                        <div>
-                            <img class="mb-1" src="/assets/app-store.svg" alt="{{ site.t.coming_soon_ios }}" />
-                            <img class="mb-1" src="/assets/google-play.svg" alt="{{ site.t.coming_soon_android }}" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+  
 </article>

@@ -23,10 +23,10 @@ slug: invest
                 <div class="invest-block">
                     <h4 class="invest-block-title">Invest in Bostel Technologies</h4>
                     <p>
-                        We are passionate about saving lives, and we know you are too!
+                    We are passionate about saving lives, and we know you are too!
                     </p>
                     <p>
-                    Please check out our <b><a target="_new" href="https://wefunder.com/bostel.technologies.llc.2">WeFunder Campaign</a></b>, where you can learn more about our latest efforts, and if you are interested, make an investment at whatever level you choose.
+                    Please check out our <b><a target="_new" href="https://wefunder.com/bostel.technologies.llc.2">WeFunder Campaign</a></b> at the crowdfunding site <b><a target="_new" href="https://wefunder.com/bostel.technologies.llc.2">wefunder.com</a></b>, where you can learn more about our latest efforts, and if you are interested, make an investment at whatever level you choose.
 					</p>
 					<p>
                     We started this project with one goal in mind: reduce the deadly impact of skin cancer. We have proudly developed a complete solution whose effectiveness has been demonstrated in a clinical trial and is supported by four peer-reviewed academic papers.

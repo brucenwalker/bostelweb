@@ -23,18 +23,19 @@ slug: invest
                 <div class="invest-block">
                     <h4 class="invest-block-title">Invest in Bostel Technologies</h4>
                     <p>
-                        We are passionate about saving lives, and we know you are too! <br />
-                        We started this project with one goal in mind: reduce the deadly impact of skin cancer. We have proudly developed a complete solution whose effectiveness has been demonstrated in a clinical trial and is supported by four peer-reviewed academic papers.
-                    </p>
-                    <p>    
-                        You can play a role in the continued success of Bostel's cutting edge skin cancer screening technology.<br />
+                        We are passionate about saving lives, and we know you are too!
                     </p>
                     <p>
                     Please check out our <b><a target="_new" href="https://wefunder.com/bostel.technologies.llc.2">WeFunder Campaign</a></b>, where you can learn more about our latest efforts, and if you are interested, make an investment at whatever level you choose.
 					</p>
 					<p>
+                    We started this project with one goal in mind: reduce the deadly impact of skin cancer. We have proudly developed a complete solution whose effectiveness has been demonstrated in a clinical trial and is supported by four peer-reviewed academic papers.
+                    </p>
+                    <p>
+                    You can play a role in the continued success of Bostel's cutting edge skin cancer screening technology.<br />
+                    </p>
+					<p>
 					Regardless of whether you choose to invest or not, we value your feedback. Please share with us your thoughts about Bostel, or our <b><a target="_new" href="https://wefunder.com/bostel.technologies.llc.2">WeFunder Campaign</a></b>.
-					</p>
 					<br />
 					<br />
 					<br />

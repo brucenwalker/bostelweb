@@ -11,7 +11,7 @@ slug: invest
 <!-- <div id="player" data-plyr-provider="vimeo" data-plyr-embed-id="331429597" data-vimeo-responsive="true" data-vimeo-autplay="true"></div> -->
 <div class="page-header">
     <div class="page-header__content container">
-        <h1 class="h5 page-label">{{ site.t.invest }}</h1>
+        <h1 class="h5 page-label">{{ site.t.invest_in_bostel }}</h1>
         <h2 class="h1 page-title">{{ site.t.wefunder_campaign }}</h2>
     </div>
 </div>
@@ -26,7 +26,7 @@ slug: invest
                     We are passionate about saving lives, and we know you are too!
                     </p>
                     <p>
-                    Please check out our <b><a target="_new" href="https://wefunder.com/bostel.technologies.llc.2">WeFunder Campaign</a></b> at the crowdfunding site <b><a target="_new" href="https://wefunder.com/bostel.technologies.llc.2">wefunder.com</a></b>, where you can learn more about our latest efforts, and if you are interested, make an investment at whatever level you choose.
+                    Please check out our <b><a target="_new" href="https://wefunder.com/bostel.technologies.llc.2">WeFunder Campaign</a></b> at the crowdfunding investment site <b><a target="_new" href="https://wefunder.com/bostel.technologies.llc.2">wefunder.com</a></b>, where you can learn more about our latest efforts, and if you are interested, make an investment at whatever level you choose.
 					</p>
 					<p>
                     We started this project with one goal in mind: reduce the deadly impact of skin cancer. We have proudly developed a complete solution whose effectiveness has been demonstrated in a clinical trial and is supported by four peer-reviewed academic papers.

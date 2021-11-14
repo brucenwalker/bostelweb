@@ -37,6 +37,9 @@ slug: invest
 					<p>
 					Regardless of whether you choose to invest or not, we value your feedback. Please share with us your thoughts about Bostel, or our <b><a target="_new" href="https://wefunder.com/bostel.technologies.llc.2">WeFunder Campaign</a></b>.
 					<br />
+					</p>
+					<p>
+					You can read the recent <a href="/news">Bostel News</a> article announcing the WeFunder Campaign launch.
 					<br />
 					<br />
                     </p>

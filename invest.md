@@ -12,6 +12,7 @@ slug: invest
 <div class="page-header">
     <div class="page-header__content container">
         <h1 class="h5 page-label">{{ site.t.invest_in_bostel }}</h1>
+	<h2 class="h1 page-title">{{ site.t.support_bostel }}</h2>
     </div>
 </div>
 <article class="page-content">    

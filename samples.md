@@ -27,7 +27,7 @@ slug: samples
                         Here is a compilation of sample images, plus the classification score and sonification for each lesion.
                     </p>
                     <p>
-                    ...insert video...
+                    <video src="/assets/Diagnostic_audio_samples.mp4" controls></video>
                     </p>
                    
                 </div>

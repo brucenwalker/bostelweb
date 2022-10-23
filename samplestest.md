@@ -31,17 +31,15 @@ slug: samples
                         Melody by Bostel processes images of skin lesions, captured by dermoscope or smart phone, 
                         and uses multimodal deep learning and sonification to classify the lesion as malignant or benign.
                         Here is a compilation of sample images, plus the classification score and sonification for each lesion.
-                    </p>
-                    <p>
+                  
                     <BR CLEAR="all">
-                    </p>
-                    <p>
                     <a href="/assets/Diagnostic_audio_samples.mp4" target="_blank">
                       <img src="/assets/Diagnostic_audio_samples-still.png" width="295" height="270">
                     </a>
                     </p>
                     
-                    
+                          <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all">
+              
                 </div>   
                 </div>   
             </div>

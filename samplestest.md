@@ -35,6 +35,9 @@ slug: samples
                     <p>
                     <BR CLEAR="all">
                     </p>
+                    <p>
+                    <a href="/assets/Diagnostic_audio_samples.mp4" target="_blank">click for video in new window</a>
+                    </p>
                     
                     
                 </div>   

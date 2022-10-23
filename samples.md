@@ -16,59 +16,46 @@ slug: samples
     </div>
 </div>
 <article class="page-content">    
+   
+    
     <section class="page-section">
         <div class="container">
+        
             <div class="row">
             <div class="contact-info col">
+            
                 <div class="contact-block">
+                
                     <h4 class="contact-block-title">Sonification and Visualization by Melody</h4>
                     <p>
-                        Melody by Bostel processes images of skin lesions, captured by dermoscope or smart phone, and uses multimodal deep learning and sonification to classify the lesion as malignant or benign.
-                        Here is a compilation of sample images, plus the classification score and sonification for each lesion.
+                        Melody by Bostel processes images of skin lesions, captured by dermoscope or smart phone, 
+                        and uses multimodal deep learning and sonification to classify the lesion as malignant or benign.
+                        <BR>
+                        The video below is a compilation of sample images, plus the classification score and sonification for each lesion. 
+                        The video presents the classification and sonification of several malignant lesions, followed by several benign lesions. 
+                        <BR>
+                        Click the image to open the video in a new window.
+                  
+                    <BR CLEAR="all">
+                    
+                    <a href="/assets/Diagnostic_audio_samples.mp4" target="_blank">
+                      <img src="/assets/Diagnostic_audio_samples-still-btn.png" width="295" height="270">
+                    </a>
+                    
+                    <BR CLEAR="all">
+                    
                     </p>
-                    <p>
-                    ...insert samples video...
-                    </p>
-                   
-                </div>
-   
+                                  
+                </div>   
+                </div>   
             </div>
+            
 
-            </div>
         </div>
     </section> 
-    <!-- <section class="page-section">
-        <div class="container">
-            {{ site.t.contact_content }}
-            <div class="cognito">
-                <div class="cognito">
-                    <script src="https://services.cognitoforms.com/s/Fi2AQefBoUefuZmI70NHAQ"></script>
-                    <script>Cognito.load("forms", { id: "1" });</script>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="page-section section-get-started">
-        <div class="container">
-            <div class="row md-reverse">
-                <div class="arch"></div>
-                <div class="col col-img">
-                    <img class="img" src="/assets/footer-image.png" />
-                </div>
-                <div class="page-section__content col txt-md-center">
-                    <div class="mb-2">
-                        <h2 class="section-title mb2 text--white">{{ site.t.ready_to_get_started }}</h2>
-                        <a class="btn btn--lg btn--light" href="#">{{ site.t.kickstart_your_future }}</a>
-                    </div>
-                    <div>
-                        <img class="footer-logo" src="/assets/logo.svg" alt="{{ site.t.oenologic }}">
-                        <div>
-                            <img class="mb-1" src="/assets/app-store.svg" alt="{{ site.t.coming_soon_ios }}" />
-                            <img class="mb-1" src="/assets/google-play.svg" alt="{{ site.t.coming_soon_android }}" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+ 
+ 
+ 
+ 
+ 
 </article>

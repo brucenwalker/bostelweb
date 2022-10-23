@@ -26,15 +26,13 @@ slug: samples
                     </p>
                     <p>
                     ...insert samples video...<BR>
+                    </p>
                     
-                    <video width="295" height="270" controls>
+                    <video width="295" height="270" controls poster="/assets/Diagnostic_audio_samples-still.png">
                     	<source src=src="/assets/Diagnostic_audio_samples.mp4" type="video/mp4">
                     	Your browser does not support the video tag.
                     </video>
-                    
-                    
-                    </p>
-                   
+                                       
            
         </div>
     </section> 

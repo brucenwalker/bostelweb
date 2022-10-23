@@ -46,8 +46,6 @@ slug: samples
             
                 <div class="contact-block">
                 
-                  
-                    <p>
             
                     
                     <video width="295" height="270" controls poster="/assets/Diagnostic_audio_samples-still.png">
@@ -55,7 +53,7 @@ slug: samples
                     	Your browser does not support the video tag.
                     </video>
 
-                    </p>
+                 
                     
                 </div>   
                 </div>   

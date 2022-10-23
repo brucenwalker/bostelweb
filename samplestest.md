@@ -20,8 +20,10 @@ slug: samples
     
     <section class="page-section">
         <div class="container">
+        
             <div class="row">
             <div class="contact-info col">
+            
                 <div class="contact-block">
                 
                     <h4 class="contact-block-title">Sonification and Visualization by Melody</h4>
@@ -30,7 +32,7 @@ slug: samples
                         Here is a compilation of sample images, plus the classification score and sonification for each lesion.
                     </p>
                     <p>
-                    ...insert samples video...
+            
                     
                     <video width="295" height="270" controls poster="/assets/Diagnostic_audio_samples-still.png">
                     	<source src=src="/assets/Diagnostic_audio_samples.mp4" type="video/mp4">
@@ -39,29 +41,10 @@ slug: samples
 
                     </p>
                     
-                   
-                </div>
-   
-            </div>
-            <div class="row">
-            <div class="contact-info col">
-                <div class="contact-block">
-                
-                    <p>
-                    
-                    <video width="295" height="270" controls poster="/assets/Diagnostic_audio_samples-still.png">
-                    	<source src=src="/assets/Diagnostic_audio_samples.mp4" type="video/mp4">
-                    	Your browser does not support the video tag.
-                    </video>
-
-                    </p>
-                    
-                   
-                </div>
-   
+                </div>   
+                </div>   
             </div>
 
-            </div>
         </div>
     </section> 
  

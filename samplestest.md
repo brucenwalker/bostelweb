@@ -56,6 +56,7 @@ slug: samples
                     	Your browser does not support the video tag.
                     </video>
 
+                          <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all">
                  
                     
                 </div>   

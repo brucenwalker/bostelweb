@@ -32,7 +32,7 @@ slug: samples
                         Here is a compilation of sample images, plus the classification score and sonification for each lesion.
                     </p>
                     <p>
-                    
+                    <BR CLEAR="all">
                     </p>
                     <p>
             

@@ -25,44 +25,18 @@ slug: samples
                         Here is a compilation of sample images, plus the classification score and sonification for each lesion.
                     </p>
                     <p>
-                    ...insert samples video...
+                    ...insert samples video...<BR>
+                    
+                    <video width="295" height="270" controls>
+                    	<source src=src="/assets/Diagnostic_audio_samples.mp4" type="video/mp4">
+                    	Your browser does not support the video tag.
+                    </video>
+                    
+                    
                     </p>
                    
            
         </div>
     </section> 
-    <!-- <section class="page-section">
-        <div class="container">
-            {{ site.t.contact_content }}
-            <div class="cognito">
-                <div class="cognito">
-                    <script src="https://services.cognitoforms.com/s/Fi2AQefBoUefuZmI70NHAQ"></script>
-                    <script>Cognito.load("forms", { id: "1" });</script>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="page-section section-get-started">
-        <div class="container">
-            <div class="row md-reverse">
-                <div class="arch"></div>
-                <div class="col col-img">
-                    <img class="img" src="/assets/footer-image.png" />
-                </div>
-                <div class="page-section__content col txt-md-center">
-                    <div class="mb-2">
-                        <h2 class="section-title mb2 text--white">{{ site.t.ready_to_get_started }}</h2>
-                        <a class="btn btn--lg btn--light" href="#">{{ site.t.kickstart_your_future }}</a>
-                    </div>
-                    <div>
-                        <img class="footer-logo" src="/assets/logo.svg" alt="{{ site.t.oenologic }}">
-                        <div>
-                            <img class="mb-1" src="/assets/app-store.svg" alt="{{ site.t.coming_soon_ios }}" />
-                            <img class="mb-1" src="/assets/google-play.svg" alt="{{ site.t.coming_soon_android }}" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+ 
 </article>

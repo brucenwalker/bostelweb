@@ -34,7 +34,7 @@ slug: samples
                   
                     <BR CLEAR="all">
                     <a href="/assets/Diagnostic_audio_samples.mp4" target="_blank">
-                      <img src="/assets/Diagnostic_audio_samples-still.png" width="295" height="270">
+                      <img src="/assets/Diagnostic_audio_samples-still-btn.png" width="295" height="270">
                     </a>
                     </p>
                     

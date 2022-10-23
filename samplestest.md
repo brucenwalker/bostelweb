@@ -32,6 +32,8 @@ slug: samples
                         and uses multimodal deep learning and sonification to classify the lesion as malignant or benign.
                         <BR>
                         The video below is a compilation of sample images, plus the classification score and sonification for each lesion. 
+                        The video presents the classification and sonification of several malignant lesions, followed by several benign lesions. 
+                        <BR>
                         Click the image to open the video in a new window.
                   
                     <BR CLEAR="all">

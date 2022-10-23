@@ -35,36 +35,19 @@ slug: samples
                         Click the image to open the video in a new window.
                   
                     <BR CLEAR="all">
+                    
                     <a href="/assets/Diagnostic_audio_samples.mp4" target="_blank">
                       <img src="/assets/Diagnostic_audio_samples-still-btn.png" width="295" height="270">
                     </a>
+                    
+                    <BR CLEAR="all">
+                    
                     </p>
-                    
-                          <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all">
-              
+                                  
                 </div>   
                 </div>   
             </div>
             
-            <div class="row">
-            <div class="contact-info col">
-            
-                <div class="contact-block">
-                
-            
-                    
-                    <video width="295" height="270" controls poster="/assets/Diagnostic_audio_samples-still.png">
-                    	<source src="/assets/Diagnostic_audio_samples.mp4" type="video/mp4">
-                    	Your browser does not support the video tag.
-                    </video>
-
-                          <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all"> <BR CLEAR="all">
-                 
-                    
-                </div>   
-                </div>   
-            </div>
-
 
         </div>
     </section> 

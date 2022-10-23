@@ -28,7 +28,8 @@ slug: samples
                 
                     <h4 class="contact-block-title">Sonification and Visualization by Melody</h4>
                     <p>
-                        Melody by Bostel processes images of skin lesions, captured by dermoscope or smart phone, and uses multimodal deep learning and sonification to classify the lesion as malignant or benign.
+                        Melody by Bostel processes images of skin lesions, captured by dermoscope or smart phone, 
+                        and uses multimodal deep learning and sonification to classify the lesion as malignant or benign.
                         Here is a compilation of sample images, plus the classification score and sonification for each lesion.
                     </p>
                     <p>
@@ -45,14 +46,7 @@ slug: samples
             
                 <div class="contact-block">
                 
-                    <h4 class="contact-block-title">Sonification and Visualization by Melody</h4>
-                    <p>
-                        Melody by Bostel processes images of skin lesions, captured by dermoscope or smart phone, and uses multimodal deep learning and sonification to classify the lesion as malignant or benign.
-                        Here is a compilation of sample images, plus the classification score and sonification for each lesion.
-                    </p>
-                    <p>
-                    <BR CLEAR="all">
-                    </p>
+                  
                     <p>
             
                     

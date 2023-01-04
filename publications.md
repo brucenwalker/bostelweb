@@ -73,7 +73,34 @@ slug: publications
 
 
                 </div>
-                
+
+                <div class="publications">            
+ 
+                    <div class="publication">
+                        <a href="/patent-us11298072B2"><img class="publication-img" src="assets/Patent-US11298072B2-frontpage.png" width="435" alt="cover of patent"/></a>
+                        <h4 class="h4">US Patent 11,298,072 B2: Dermoscopy diagnosis of cancerous lesions utilizing dual deep learning algorithms via visual and audio (sonification) outputs</h4>
+                        <p>US Patent issued April 12, 2022<br>https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11298072</p> 
+
+                        <div class="publication-footer">
+                            <a href="/patent-us11298072B2">Read More</a>
+                            <a class="btn btn--icon btn--icon-light pdf-btn" href="/assets/Patent-US11298072B2.pdf" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
+                        </div>
+                    </div>
+                                        
+                    <div class="publication">
+                        <a href="/patent-us11484247B2"><img class="publication-img" src="assets/Patent-US11484247B2-frontpage.png" width="435" alt="cover of patent"/></a>
+                        <h4 class="h4">US Patent 11,484,247 B2: Phonodermoscopy, a medical device system and method for skin diagnosis</h4>
+                        <p>US Patent issued November 1, 2022<br>https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11484247</p> 
+
+                        <div class="publication-footer">
+                            <a href="/patent-us11484247B2">Read More</a>
+                            <a class="btn btn--icon btn--icon-light pdf-btn" href="/assets/Patent-US11484247B2.pdf" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
+                        </div>
+                    </div>
+ 
+
+
+                </div>                
             </div>
         </section>
     </div>

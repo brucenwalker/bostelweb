@@ -30,6 +30,7 @@ slug: publications
                             <a href="/dermoscopy-diagnosis-cancerous-lesions">Read More</a>
                             <a class="btn btn--icon btn--icon-light pdf-btn" href="/assets/PIIS2352396419300337.PDF" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
                         </div>
+                        <BR>
                     </div>
                     
                     <div class="publication">
@@ -41,6 +42,7 @@ slug: publications
                             <a href="/skin-cancer-detection-deep-learning-sound-analysis-algorithms">Read More</a>
                             <a class="btn btn--icon btn--icon-light pdf-btn" href="/assets/PIIS2352396419302944.pdf" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
                         </div>
+                        <BR>
                     </div>
  
                 </div>    
@@ -61,7 +63,7 @@ slug: publications
                                         
                     <div class="publication">
                         <a href="/non-melanamoma-skin-cancer-diagnosis"><img class="publication-img" src="assets/JCRCO-2021-frontpage.png" width="435" alt="cover of article" /></a>
-                        <h4 class="h4">Non‐melanoma skin cancer diagnosis: a comparison between dermoscopic and smartphone images by unified visual and sonification deep learning algorithms</h4>
+                        <h4 class="h4">Non-melanoma skin cancer diagnosis: a comparison between dermoscopic and smartphone images by unified visual and sonification deep learning algorithms</h4>
                         <p>Journal of Cancer Research and Clinical Oncology, 2021 (accepted Sept 15)<BR>https://doi.org/10.1007/s00432-021-03809-x</p> 
 
                         <div class="publication-footer">

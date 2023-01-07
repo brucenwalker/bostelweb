@@ -99,7 +99,7 @@ slug: publications
                             <a class="btn btn--icon btn--icon-light pdf-btn" href="/assets/Patent-US11484247B2.pdf" target="_blank"><svg class="icon" aria-title="download PDF"><use xlink:href="/assets/site.svg#pdf-download" /></svg></a>
                         </div>
                     </div>
- 
+  
 
 
                 </div>                
